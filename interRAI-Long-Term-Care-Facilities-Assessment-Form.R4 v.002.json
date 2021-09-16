@@ -1493,7 +1493,7 @@
               ],
               "valueCoding": {
                 "code": "3",
-                "display": "Moderately impaired - Decisions consistently poor or unsafe; sues / supervision required at all times"
+                "display": "Moderately impaired - Decisions consistently poor or unsafe; cues / supervision required at all times"
               }
             },
             {
@@ -10987,7 +10987,7 @@
             {
               "valueCoding": {
                 "code": "0",
-                "display": "0.No pressure ulcer"
+                "display": "0. No pressure ulcer"
               }
             },
             {
