@@ -294,7 +294,7 @@
             {
               "valueCoding": {
                 "code": "7",
-                "display": "Other — e.g.,research"
+                "display": "Other—e.g.,research"
               }
             }
           ]
@@ -784,7 +784,7 @@
                 {
                   "valueCoding": {
                     "code": "8",
-                    "display": "Mental health residence — e.g., psychiatric group home"
+                    "display": "Mental health residence—e.g., psychiatric group home"
                   }
                 },
                 {
@@ -927,7 +927,7 @@
                 {
                   "valueCoding": {
                     "code": "8",
-                    "display": "Mental health residence — e.g., psychiatric group home"
+                    "display": "Mental health residence—e.g., psychiatric group home"
                   }
                 },
                 {
@@ -1208,7 +1208,7 @@
               ],
               "required": false,
               "linkId": "iB5e",
-              "text": "c. Mental health residence - e.g., psychiatric group home",
+              "text": "c. Mental health residence-e.g., psychiatric group home",
               "answerOption": [
                 {
                   "valueCoding": {
@@ -2178,25 +2178,25 @@
             {
               "valueCoding": {
                 "code": "0",
-                "display": "0. Understood — Expresses ideas without difficulty"
+                "display": "0. Understood—Expresses ideas without difficulty"
               }
             },
             {
               "valueCoding": {
                 "code": "1",
-                "display": "1. Usually understood — Difficulty finding words or finishing thoughts BUT if given time, little or no prompting required"
+                "display": "1. Usually understood—Difficulty finding words or finishing thoughts BUT if given time, little or no prompting required"
               }
             },
             {
               "valueCoding": {
                 "code": "2",
-                "display": "2. Often understood — Difficulty finding words or finishing thoughts AND prompting usually required"
+                "display": "2. Often understood—Difficulty finding words or finishing thoughts AND prompting usually required"
               }
             },
             {
               "valueCoding": {
                 "code": "3",
-                "display": "3. Sometimes understood — Ability is limited to making concrete requests"
+                "display": "3. Sometimes understood—Ability is limited to making concrete requests"
               }
             },
             {
@@ -2254,25 +2254,25 @@
             {
               "valueCoding": {
                 "code": "0",
-                "display": "0. Understands — Clear comprehension"
+                "display": "0. Understands—Clear comprehension"
               }
             },
             {
               "valueCoding": {
                 "code": "1",
-                "display": "1. Usually understands — Misses some part / intent of message BUT comprehends most conversation"
+                "display": "1. Usually understands—Misses some part / intent of message BUT comprehends most conversation"
               }
             },
             {
               "valueCoding": {
                 "code": "2",
-                "display": "2. Often understands — Misses some part / intent of message BUT with repetition or explanation can often comprehend conversation"
+                "display": "2. Often understands—Misses some part / intent of message BUT with repetition or explanation can often comprehend conversation"
               }
             },
             {
               "valueCoding": {
                 "code": "3",
-                "display": "3. Sometimes understands — Responds adequately to simple, direct communication only"
+                "display": "3. Sometimes understands—Responds adequately to simple, direct communication only"
               }
             },
             {
@@ -2335,25 +2335,25 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Adequate — No difficulty in normal conversation, social interaction, listening to TV"
+                    "display": "0. Adequate—No difficulty in normal conversation, social interaction, listening to TV"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Minimal difficulty — Difficulty in some environments (e.g., when person speaks softly or is more than 6 feet [2 meters] away)"
+                    "display": "1. Minimal difficulty—Difficulty in some environments (e.g., when person speaks softly or is more than 6 feet [2 meters] away)"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Moderate difficulty — Problem hearing normal conversation, requires quiet setting to hear well"
+                    "display": "2. Moderate difficulty—Problem hearing normal conversation, requires quiet setting to hear well"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Severe difficulty — Difficulty in all situations (e.g., speaker has to talk loudly or speak very slowly; or person reports that all speech is mumbled)"
+                    "display": "3. Severe difficulty—Difficulty in all situations (e.g., speaker has to talk loudly or speak very slowly; or person reports that all speech is mumbled)"
                   }
                 },
                 {
@@ -2432,25 +2432,25 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Adequate — Sees fine detail, including regular print in newspapers / books"
+                    "display": "0. Adequate—Sees fine detail, including regular print in newspapers / books"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Minimal difficulty — Sees large print but not regular print in newspapers / books"
+                    "display": "1. Minimal difficulty—Sees large print but not regular print in newspapers / books"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Moderate difficulty — Limited vision; not able to see newspaper headlines but can identify objects"
+                    "display": "2. Moderate difficulty—Limited vision; not able to see newspaper headlines but can identify objects"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Severe difficulty — Object identification in question, but eyes appear to follow objects; sees only light, colours, shapes"
+                    "display": "3. Severe difficulty—Object identification in question, but eyes appear to follow objects; sees only light, colours, shapes"
                   }
                 },
                 {
@@ -4773,43 +4773,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -4850,43 +4850,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -4927,43 +4927,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -5004,43 +5004,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -5081,43 +5081,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -5158,43 +5158,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -5235,43 +5235,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -5312,43 +5312,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -5389,43 +5389,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -5466,43 +5466,43 @@
                 {
                   "valueCoding": {
                     "code": "0",
-                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
+                    "display": "0. Independent—No physical assistance, setup, or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "display": "1. Independent, setup help only—Article or device provided or placed within reach, no physical assistance or supervision in any episode"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Supervision — Oversight / cuing"
+                    "display": "2. Supervision—Oversight / cuing"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "display": "3. Limited assistance—Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "display": "4. Extensive assistance—Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "display": "6. Total dependence—Full performance by others during all episodes"
                   }
                 },
                 {
@@ -5587,7 +5587,7 @@
                 {
                   "valueCoding": {
                     "code": "1",
-                    "display": "1. Walking, uses assistive device — e.g., cane, walker, crutch, pushing wheelchair"
+                    "display": "1. Walking, uses assistive device—e.g., cane, walker, crutch, pushing wheelchair"
                   }
                 },
                 {
@@ -6336,25 +6336,25 @@
             {
               "valueCoding": {
                 "code": "3",
-                "display": "3. Occasionally incontinent — Less than daily"
+                "display": "3. Occasionally incontinent—Less than daily"
               }
             },
             {
               "valueCoding": {
                 "code": "4",
-                "display": "4. Frequently incontinent — Daily, but some control present"
+                "display": "4. Frequently incontinent—Daily, but some control present"
               }
             },
             {
               "valueCoding": {
                 "code": "5",
-                "display": "5. Incontinent — No control present"
+                "display": "5. Incontinent—No control present"
               }
             },
             {
               "valueCoding": {
                 "code": "8",
-                "display": "8. Did not occur — No urine output from bladder in last 3 days"
+                "display": "8. Did not occur—No urine output from bladder in last 3 days"
               }
             }
           ]
@@ -9615,25 +9615,25 @@
             {
               "valueCoding": {
                 "code": "1",
-                "display": "1. Minimal — Diminished energy but completes normal day-to-day activities"
+                "display": "1. Minimal—Diminished energy but completes normal day-to-day activities"
               }
             },
             {
               "valueCoding": {
                 "code": "2",
-                "display": "2. Moderate — Due to diminished energy, UNABLE TO FINISH normal day-to-day activities"
+                "display": "2. Moderate—Due to diminished energy, UNABLE TO FINISH normal day-to-day activities"
               }
             },
             {
               "valueCoding": {
                 "code": "3",
-                "display": "3. Severe — Due to diminished energy, UNABLE TO START SOME normal day-to-day activities"
+                "display": "3. Severe—Due to diminished energy, UNABLE TO START SOME normal day-to-day activities"
               }
             },
             {
               "valueCoding": {
                 "code": "4",
-                "display": "4. Unable to commence any normal day-to-day activities — Due to diminished energy"
+                "display": "4. Unable to commence any normal day-to-day activities—Due to diminished energy"
               }
             }
           ],
@@ -10548,25 +10548,25 @@
             {
               "valueCoding": {
                 "code": "0",
-                "display": "0. Normal — Swallows all types of foods"
+                "display": "0. Normal—Swallows all types of foods"
               }
             },
             {
               "valueCoding": {
                 "code": "1",
-                "display": "1. Modified independent — e.g., liquid is sipped, takes limited solid food; need for modification may be unknown"
+                "display": "1. Modified independent—e.g., liquid is sipped, takes limited solid food; need for modification may be unknown"
               }
             },
             {
               "valueCoding": {
                 "code": "2",
-                "display": "2. Requires diet modification to swallow solid food — e.g., mechanical diet (puree, minced, etc.) or only able to ingest specific foods"
+                "display": "2. Requires diet modification to swallow solid food—e.g., mechanical diet (puree, minced, etc.) or only able to ingest specific foods"
               }
             },
             {
               "valueCoding": {
                 "code": "3",
-                "display": "3. Requires modification to swallow liquids — e.g., thickened liquids"
+                "display": "3. Requires modification to swallow liquids—e.g., thickened liquids"
               }
             },
             {
@@ -10590,19 +10590,19 @@
             {
               "valueCoding": {
                 "code": "7",
-                "display": "7. Abdominal feeding tube only — e.g., PEG tube"
+                "display": "7. Abdominal feeding tube only—e.g., PEG tube"
               }
             },
             {
               "valueCoding": {
                 "code": "8",
-                "display": "8. Parenteral feeding only — Includes all types of parenteral feedings, such as total parenteral nutrition (TPN)"
+                "display": "8. Parenteral feeding only—Includes all types of parenteral feedings, such as total parenteral nutrition (TPN)"
               }
             },
             {
               "valueCoding": {
                 "code": "9",
-                "display": "9. Activity did not occur — During entire period"
+                "display": "9. Activity did not occur—During entire period"
               }
             }
           ]
@@ -11015,13 +11015,13 @@
             {
               "valueCoding": {
                 "code": "5",
-                "display": "5. Not codeable — necrotic eschar predominant"
+                "display": "5. Not codeable—necrotic eschar predominant"
               }
             },
             {
               "valueCoding": {
                 "code": "6",
-                "display": "6. Not codeable — suspected deep tissue injury, depth unknown"
+                "display": "6. Not codeable—suspected deep tissue injury, depth unknown"
               }
             }
           ]
@@ -11340,19 +11340,19 @@
             {
               "valueCoding": {
                 "code": "1",
-                "display": "1. Little — less than 1/3 of time"
+                "display": "1. Little—less than 1/3 of time"
               }
             },
             {
               "valueCoding": {
                 "code": "2",
-                "display": "2. Some — from 1/3–2/3 of time"
+                "display": "2. Some—from 1/3–2/3 of time"
               }
             },
             {
               "valueCoding": {
                 "code": "3",
-                "display": "3. Most — more than 2/3 of time"
+                "display": "3. Most—more than 2/3 of time"
               }
             }
           ],
@@ -20398,13 +20398,13 @@
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Used daily — Nights only"
+                    "display": "2. Used daily—Nights only"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Used daily — Days only"
+                    "display": "3. Used daily—Days only"
                   }
                 },
                 {
@@ -20463,13 +20463,13 @@
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Used daily — Nights only"
+                    "display": "2. Used daily—Nights only"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Used daily — Days only"
+                    "display": "3. Used daily—Days only"
                   }
                 },
                 {
@@ -21413,7 +21413,7 @@
             {
               "valueCoding": {
                 "code": "8",
-                "display": "8. Mental health residence — e.g., psychiatric group home"
+                "display": "8. Mental health residence—e.g., psychiatric group home"
               }
             },
             {
