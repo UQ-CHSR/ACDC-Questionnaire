@@ -353,7 +353,7 @@
           "code": [
             {
               "code": "iA13",
-              "display": "Time since last hospital stay"
+              "display": "TIME SINCE LAST HOSPITAL STAY - Code for most recent instance in LAST 90 DAYS"
             }
           ],
           "extension": [
@@ -371,9 +371,31 @@
               }
             }
           ],
+          "item": [
+            {
+              "text": "Code for most recent instance in LAST 90 DAYS",
+              "type": "display",
+              "linkId": "iA13-help",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                  "valueCodeableConcept": {
+                    "text": "Help-Button",
+                    "coding": [
+                      {
+                        "code": "help",
+                        "display": "Help-Button",
+                        "system": "http://hl7.org/fhir/questionnaire-item-control"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "required": false,
           "linkId": "iA13",
-          "text": "10. Time since last hospital stay",
+          "text": "10. TIME SINCE LAST HOSPITAL STAY - Code for most recent instance in LAST 90 DAYS",
           "answerOption": [
             {
               "valueCoding": {
@@ -410,28 +432,6 @@
                 "code": "5",
                 "display": "Now in hospital"
               }
-            }
-          ],
-          "item": [
-            {
-              "text": "Code for most recent instance in LAST 90 DAYS",
-              "type": "display",
-              "linkId": "iA13-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         }
@@ -617,7 +617,7 @@
           "code": [
             {
               "code": "iB4",
-              "display": "Primary Language"
+              "display": "PRIMARY LANGUAGE - Main language spoken at home"
             }
           ],
           "extension": [
@@ -637,7 +637,7 @@
           ],
           "required": false,
           "linkId": "iB4",
-          "text": "4. Primary Language",
+          "text": "4. PRIMARY LANGUAGE - Main language spoken at home",
           "answerOption": [
             {
               "valueCoding": {
@@ -1379,7 +1379,7 @@
           ],
           "required": false,
           "linkId": "iB7",
-          "text": "9. Mental health",
+          "text": "9. MENTAL HEALTH - Record indicates history of mental illness or intellectual disability",
           "answerOption": [
             {
               "extension": [
@@ -1441,7 +1441,7 @@
           "code": [
             {
               "code": "iC1",
-              "display": "Cognitive skills for daily decision making"
+              "display": "COGNITIVE SKILLS FOR DAILY DECISION MAKING - Making decisions regarding tasks of daily life-e.g., when to get up or have meals, which clothes to wear or activities to do"
             }
           ],
           "extension": [
@@ -1461,7 +1461,7 @@
           ],
           "required": false,
           "linkId": "iC1",
-          "text": "1. Cognitive skills for daily decision making",
+          "text": "1. COGNITIVE SKILLS FOR DAILY DECISION MAKING - Making decisions regarding tasks of daily life-e.g., when to get up or have meals, which clothes to wear or activities to do",
           "answerOption": [
             {
               "extension": [
@@ -2169,7 +2169,7 @@
           ],
           "required": false,
           "linkId": "iD1",
-          "text": "1. Making self understood (Expression)",
+          "text": "1. MAKING SELF UNDERSTOOD (EXPRESSION): Expressing information content - both verbal and non-verbal",
           "item": [
             {
               "text": "Expressing information content - both verbal and non-verbal",
@@ -2267,7 +2267,7 @@
           ],
           "required": false,
           "linkId": "iD2",
-          "text": "2. Ability to understand others (Comprehension)",
+          "text": "2. ABILITY TO UNDERSTAND OTHERS (COMPREHENSION) - Understanding verbal information content (however able; with hearing appliance normally used)",
           "answerOption": [
             {
               "valueCoding": {
@@ -4547,7 +4547,7 @@
           "code": [
             {
               "code": "iF4",
-              "display": "Major life stressors in the last 90 days"
+              "display": "MAJOR LIFE STRESSORS IN LAST 90 DAYS - e.g., episode of severe personal illness; death or severe illness of close famiy member/friend; loss of home; major loss of income/assets; victim of a crime such as a robbery or assualt; loss of driving licence/car"
             }
           ],
           "extension": [
@@ -4567,7 +4567,7 @@
           ],
           "required": false,
           "linkId": "iF4",
-          "text": "4. Major life stressors in the last 90 days - e.g., episode of severe personal illness; death or severe illness of close famiy member/friend; loss of home; major loss of income/assets; victim of a crime such as a robbery or assualt; loss of driving licence/car",
+          "text": "4. MAJOR LIFE STRESSORS IN LAST 90 DAYS - e.g., episode of severe personal illness; death or severe illness of close famiy member/friend; loss of home; major loss of income/assets; victim of a crime such as a robbery or assualt; loss of driving licence/car",
           "answerOption": [
             {
               "valueCoding": {
@@ -5607,7 +5607,7 @@
               "code": [
                 {
                   "code": "iG12",
-                  "display": "b. Timed 4-metre walk"
+                  "display": "b. Timed 4-metre walk - Lay out a straight, unobstructed course. Have person stand in still position, feet just touching start line. Then say: \"When I tell, begin to walk at a normal pace (with cane/walker if used)\". This is not a test of how fast you can walk. Stop when I tell you to stop. Is this clear?\" Assessor may demonstrate test. Then say: \"Begin to walk now.\" Start stopwatch (or can count seconds) when first foot falls. End count when foot falls beyond 4-metre mark. Then say: \"You may stop now."
                 }
               ],
               "extension": [
@@ -5625,9 +5625,31 @@
                   }
                 }
               ],
+              "item": [
+                {
+                  "text": "Lay out a straight, unobstructed course. Have person stand in still position, feet just touching start line. Then say: \"When I tell, begin to walk at a normal pace (with cane/walker if used)\". This is not a test of how fast you can walk. Stop when I tell you to stop. Is this clear?\" Assessor may demonstrate test. Then say: \"Begin to walk now.\" Start stopwatch (or can count seconds) when first foot falls. End count when foot falls beyond 4-metre mark. Then say: \"You may stop now.\"",
+                  "type": "display",
+                  "linkId": "iG12-help",
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                      "valueCodeableConcept": {
+                        "text": "Help-Button",
+                        "coding": [
+                          {
+                            "code": "help",
+                            "display": "Help-Button",
+                            "system": "http://hl7.org/fhir/questionnaire-item-control"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
               "required": false,
               "linkId": "iG12",
-              "text": "b. Timed 4-metre walk",
+              "text": "b. Timed 4-metre walk - Lay out a straight, unobstructed course. Have person stand in still position, feet just touching start line. Then say: \"When I tell, begin to walk at a normal pace (with cane/walker if used)\". This is not a test of how fast you can walk. Stop when I tell you to stop. Is this clear?\" Assessor may demonstrate test. Then say: \"Begin to walk now.\" Start stopwatch (or can count seconds) when first foot falls. End count when foot falls beyond 4-metre mark. Then say: \"You may stop now.",
               "answerOption": [
                 {
                   "valueCoding": {
@@ -5826,28 +5848,6 @@
                     "code": "99",
                     "display": "99. Not tested - e.g. does not walk on own"
                   }
-                }
-              ],
-              "item": [
-                {
-                  "text": "Lay out a straight, unobstructed course. Have person stand in still position, feet just touching start line. Then say: \"When I tell, begin to walk at a normal pace (with cane/walker if used)\". This is not a test of how fast you can walk. Stop when I tell you to stop. Is this clear?\" Assessor may demonstrate test. Then say: \"Begin to walk now.\" Start stopwatch (or can count seconds) when first foot falls. End count when foot falls beyond 4-metre mark. Then say: \"You may stop now.\"",
-                  "type": "display",
-                  "linkId": "iG12-help",
-                  "extension": [
-                    {
-                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                      "valueCodeableConcept": {
-                        "text": "Help-Button",
-                        "coding": [
-                          {
-                            "code": "help",
-                            "display": "Help-Button",
-                            "system": "http://hl7.org/fhir/questionnaire-item-control"
-                          }
-                        ]
-                      }
-                    }
-                  ]
                 }
               ]
             },
@@ -8245,7 +8245,7 @@
           "code": [
             {
               "code": "iJ12",
-              "display": "Recent falls"
+              "display": "RECENT FALLS - [Skip if last assessed more than 30 days ago or if this is first assessment]. Leave blank if 'Not applicable' (first assessment or more than 30 days since last assessment)"
             }
           ],
           "extension": [
@@ -8287,7 +8287,7 @@
           ],
           "required": false,
           "linkId": "iJ12",
-          "text": "2. Recent falls",
+          "text": "2. RECENT FALLS - [Skip if last assessed more than 30 days ago or if this is first assessment]. Leave blank if 'Not applicable' (first assessment or more than 30 days since last assessment)",
           "answerOption": [
             {
               "valueCoding": {
@@ -9634,7 +9634,7 @@
           "code": [
             {
               "code": "iJ4",
-              "display": "5.Fatigue"
+              "display": "5. FATIGUE - Inability to complete normal daily activities - e.g., ADLs, IADLs"
             }
           ],
           "item": [
@@ -9676,7 +9676,7 @@
           ],
           "required": false,
           "linkId": "iJ4",
-          "text": "5. Fatigue",
+          "text": "5. FATIGUE - Inability to complete normal daily activities - e.g., ADLs, IADLs",
           "answerOption": [
             {
               "valueCoding": {
@@ -10157,7 +10157,7 @@
           "code": [
             {
               "code": "iJ7",
-              "display": "Self-reported health"
+              "display": "SELF-REPORTED HEALTH - Ask: \"In general, how would you rate your health?\""
             }
           ],
           "extension": [
@@ -10199,7 +10199,7 @@
           ],
           "required": false,
           "linkId": "iJ7",
-          "text": "8. Self-reported health",
+          "text": "8. SELF-REPORTED HEALTH - Ask: \"In general, how would you rate your health?\"",
           "answerOption": [
             {
               "valueCoding": {
@@ -10664,7 +10664,7 @@
           "code": [
             {
               "code": "iK5",
-              "display": "Parenteral or enteral intake"
+              "display": "PARENTERAL OR ENTERAL INTAKE - The proportion of TOTAL CALORIES received through parenteral or tube feedings in the LAST 3 DAYS"
             }
           ],
           "extension": [
@@ -10706,7 +10706,7 @@
           ],
           "required": false,
           "linkId": "iK5",
-          "text": "4. Parenteral or enteral intake",
+          "text": "4. PARENTERAL OR ENTERAL INTAKE - The proportion of TOTAL CALORIES received through parenteral or tube feedings in the LAST 3 DAYS",
           "answerOption": [
             {
               "valueCoding": {
@@ -11125,7 +11125,7 @@
           "code": [
             {
               "code": "iL3",
-              "display": "Presence of skin ulcer other than pressure ulcer"
+              "display": "Presence of skin ulcer other than pressure ulcer - e.g., venous ulcer, arterial ulcer, mixed venous-arterial ulcer, diabetic foot ulcer"
             }
           ],
           "extension": [
@@ -11145,7 +11145,7 @@
           ],
           "required": false,
           "linkId": "iL3",
-          "text": "3. Presence of skin ulcer other than pressure ulcer",
+          "text": "3. Presence of skin ulcer other than pressure ulcer - e.g., venous ulcer, arterial ulcer, mixed venous-arterial ulcer, diabetic foot ulcer",
           "answerOption": [
             {
               "valueCoding": {
@@ -11166,7 +11166,7 @@
           "code": [
             {
               "code": "iL4",
-              "display": "Major skin problems"
+              "display": "4. Major skin problems - e.g., lesions, 2nd- or 3rd-degree burns, healing surgical wounds"
             }
           ],
           "extension": [
@@ -11186,7 +11186,7 @@
           ],
           "required": false,
           "linkId": "iL4",
-          "text": "4. Major skin problems-e.g., lesions, 2nd- or 3rd-degree burns, healing surgical wounds",
+          "text": "4. Major skin problems - e.g., lesions, 2nd- or 3rd-degree burns, healing surgical wounds",
           "answerOption": [
             {
               "valueCoding": {
@@ -11289,7 +11289,7 @@
           "code": [
             {
               "code": "iL7",
-              "display": "Foot problems"
+              "display": "Foot problems - e.g., bunions, hammertoes, overlapping toes, structural problems, infections, ulcers"
             }
           ],
           "extension": [
@@ -11362,7 +11362,7 @@
           "code": [
             {
               "code": "iS1b",
-              "display": "Average time involved in activities"
+              "display": "Average time involved in activities - e.g., alone, in social group. [Note: When awake and not receiving treatments or ADL care]"
             }
           ],
           "extension": [
@@ -11404,7 +11404,7 @@
           ],
           "required": false,
           "linkId": "iS1b",
-          "text": "1. Average time involved in activities-e.g., alone, in social group",
+          "text": "1. Average time involved in activities - e.g., alone, in social group. [Note: When awake and not receiving treatments or ADL care]",
           "answerOption": [
             {
               "valueCoding": {
