@@ -2,9 +2,6 @@
   "id": "iLTCF",
   "meta": {
     "lastUpdated": "2020-02-26T06:41:33.479Z",
-    "profile": [
-      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|2.7"
-    ],
     "tag": [
       {
         "code": "lformsVersion: 29.2.1"
@@ -1102,6 +1099,26 @@
           "text": "8. Residential History Over Last 5 Years",
           "item": [
             {
+                "text": "Code for all settings person lived in during 5 YEARS prior to date stay began (Item B2)",
+                "type": "display",
+                "linkId": "iB5-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+            {
               "type": "choice",
               "code": [
                 {
@@ -1317,11 +1334,17 @@
                   }
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "code": [],
+          "item": [
             {
-              "text": "Code for all settings person lived in during 5 YEARS prior to date stay began (Item B2)",
+              "text": "Record indicates history of mental illness or intellectual disability",
               "type": "display",
-              "linkId": "iB5-help",
+              "linkId": "iB7-help",
               "extension": [
                 {
                   "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1338,11 +1361,7 @@
                 }
               ]
             }
-          ]
-        },
-        {
-          "type": "choice",
-          "code": [],
+          ],
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1386,12 +1405,21 @@
                 "display": "Yes"
               }
             }
-          ],
-          "item": [
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "code": [],
+      "required": false,
+      "linkId": "iC",
+      "text": "SECTION C. Cognition",
+      "item": [
             {
-              "text": "Record indicates history of mental illness or intellectual disability",
+              "text": "Making decisions regarding tasks of daily life-e.g., when to get up or have meals, which clothes to wear or activities to do",
               "type": "display",
-              "linkId": "iB7-help",
+              "linkId": "iC1-help",
               "extension": [
                 {
                   "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1407,18 +1435,7 @@
                   }
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "group",
-      "code": [],
-      "required": false,
-      "linkId": "iC",
-      "text": "SECTION C. Cognition",
-      "item": [
+            },
         {
           "type": "choice",
           "code": [
@@ -1518,35 +1535,34 @@
                 "display": "No discernible consciousness, coma"
               }
             }
-          ],
-          "item": [
-            {
-              "text": "Making decisions regarding tasks of daily life-e.g., when to get up or have meals, which clothes to wear or activities to do",
-              "type": "display",
-              "linkId": "iC1-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         {
           "type": "group",
           "required": false,
+          "linkId": "iC2",
           "text": "2. Memory / Recall ability",
           "item": [
+            {
+                "text": "Code for recall of what was learned or known",
+                "type": "display",
+                "linkId": "iC2-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
             {
               "type": "choice",
               "code": [
@@ -1758,26 +1774,6 @@
                   }
                 }
               ]
-            },
-            {
-              "text": "Code for recall of what was learned or known",
-              "type": "display",
-              "linkId": "undefined-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -1788,6 +1784,26 @@
           "linkId": "iC3",
           "text": "3. Periodic disordered thinking or awareness",
           "item": [
+            {
+                "text": "[Note: Accurate assessment requires conversations with staff, family, or others who have direct knowledge of the person's behaviour over this time]",
+                "type": "display",
+                "linkId": "iC3-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
             {
               "type": "choice",
               "code": [
@@ -1982,26 +1998,6 @@
                   }
                 }
               ]
-            },
-            {
-              "text": "[Note: Accurate assessment requires conversations with staff, family, or others who have direct knowledge of the person's behaviour over this time]",
-              "type": "display",
-              "linkId": "iC3-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -2174,6 +2170,28 @@
           "required": false,
           "linkId": "iD1",
           "text": "1. Making self understood (Expression)",
+          "item": [
+            {
+              "text": "Expressing information content - both verbal and non-verbal",
+              "type": "display",
+              "linkId": "iD1-help",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                  "valueCodeableConcept": {
+                    "text": "Help-Button",
+                    "coding": [
+                      {
+                        "code": "help",
+                        "display": "Help-Button",
+                        "system": "http://hl7.org/fhir/questionnaire-item-control"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "answerOption": [
             {
               "valueCoding": {
@@ -2205,12 +2223,16 @@
                 "display": "4. Rarely or never understood"
               }
             }
-          ],
+          ]
+        },
+        {
+          "type": "choice",
+          "code": [],
           "item": [
             {
-              "text": "Expressing information content - both verbal and non-verbal",
+              "text": "Understanding verbal information content (however able; with hearing appliance normally used)",
               "type": "display",
-              "linkId": "iD1-help",
+              "linkId": "iD2-help",
               "extension": [
                 {
                   "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2227,11 +2249,7 @@
                 }
               ]
             }
-          ]
-        },
-        {
-          "type": "choice",
-          "code": [],
+          ],
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2280,28 +2298,6 @@
                 "code": "4",
                 "display": "4. Rarely or never understands"
               }
-            }
-          ],
-          "item": [
-            {
-              "text": "Understanding verbal information content (however able; with hearing appliance normally used)",
-              "type": "display",
-              "linkId": "iD2-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -2406,6 +2402,7 @@
         {
           "type": "group",
           "required": false,
+          "linkId": "iD4",
           "text": "4. Vision",
           "item": [
             {
@@ -2530,6 +2527,26 @@
           "linkId": "iE1",
           "text": "1. Indicators of possible depressed, anxious, or sad mood",
           "item": [
+            {
+                "text": "Code for indicators observed in last 3 days, irrespective of the assumed cause [Note: Whenever possible, ask person.]",
+                "type": "display",
+                "linkId": "iE1-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
             {
               "type": "choice",
               "code": [
@@ -3112,26 +3129,6 @@
                   }
                 }
               ]
-            },
-            {
-              "text": "Code for indicators observed in last 3 days, irrespective of the assumed cause [Note: Whenever possible, ask person.]",
-              "type": "display",
-              "linkId": "iE1-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -3147,6 +3144,26 @@
           "linkId": "iE2",
           "text": "2. Self-reported mood - \"In the last 3 days, how often have you felt…\"",
           "item": [
+            {
+                "text": "Ask: \"In the last 3 days, how often have you felt…\"",
+                "type": "display",
+                "linkId": "iE2-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
             {
               "type": "choice",
               "code": [
@@ -3323,26 +3340,6 @@
                   }
                 }
               ]
-            },
-            {
-              "text": "Ask: \"In the last 3 days, how often have you felt…\"",
-              "type": "display",
-              "linkId": "iE2-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -3358,6 +3355,26 @@
           "linkId": "iE3",
           "text": "3. Behaviour symptoms",
           "item": [
+            {
+                "text": "Code for indicators observed, irrespective of the assumed cause",
+                "type": "display",
+                "linkId": "iE3-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
             {
               "type": "choice",
               "code": [
@@ -3675,26 +3692,6 @@
                   }
                 }
               ]
-            },
-            {
-              "text": "Code for indicators observed, irrespective of the assumed cause",
-              "type": "display",
-              "linkId": "iE3-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         }
@@ -3712,6 +3709,26 @@
       "linkId": "iF",
       "text": "SECTION F. Psychosocial Well-being",
       "item": [
+        {
+            "text": "[Note: Ask person, direct care staff, and family, if available.]",
+            "type": "display",
+            "linkId": "iF1-help",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                "valueCodeableConcept": {
+                  "text": "Help-Button",
+                  "coding": [
+                    {
+                      "code": "help",
+                      "display": "Help-Button",
+                      "system": "http://hl7.org/fhir/questionnaire-item-control"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
         {
           "type": "group",
           "code": [
@@ -3915,26 +3932,6 @@
                   "valueCoding": {
                     "code": "8",
                     "display": "8. Unable to determine"
-                  }
-                }
-              ]
-            },
-            {
-              "text": "[Note: Ask person, direct care staff, and family, if available.]",
-              "type": "display",
-              "linkId": "iF1-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
                   }
                 }
               ]
@@ -4733,6 +4730,26 @@
       "text": "SECTION G. Functional Status",
       "item": [
         {
+            "text": "\"Consider all episodes over 3-day period.  If all episodes are performed at the same level, score ADL at that level. If any episodes at level 6, and others less dependent, score ADL as a 5. Otherwise, focus on the three most dependent episodes [or all episodes if performed fewer than 3 times]. If most dependent episode is 1, score ADL as 1. If not, score ADL as least dependent of those episodes in range 2-5.\"",
+            "type": "display",
+            "linkId": "iG2-help",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                "valueCodeableConcept": {
+                  "text": "Help-Button",
+                  "coding": [
+                    {
+                      "code": "help",
+                      "display": "Help-Button",
+                      "system": "http://hl7.org/fhir/questionnaire-item-control"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+        {
           "type": "group",
           "code": [
             {
@@ -4804,7 +4821,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -4881,7 +4898,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -4958,7 +4975,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -5035,7 +5052,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -5112,7 +5129,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -5189,7 +5206,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -5266,7 +5283,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -5343,7 +5360,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -5420,7 +5437,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -5497,7 +5514,7 @@
                 {
                   "valueCoding": {
                     "code": "5",
-                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "display": "5. Maximal assistance—Weight-bearing support (including lifting limbs) by 2+ helpers-OR-weight-bearing support for more than 50% of subtasks"
                   }
                 },
                 {
@@ -5510,26 +5527,6 @@
                   "valueCoding": {
                     "code": "8",
                     "display": "8. Activity did not occur during entire period"
-                  }
-                }
-              ]
-            },
-            {
-              "text": "\"Consider all episodes over 3-day period.  If all episodes are performed at the same level, score ADL at that level. If any episodes at level 6, and others less dependent, score ADL as a 5. Otherwise, focus on the three most dependent episodes [or all episodes if performed fewer than 3 times]. If most dependent episode is 1, score ADL as 1. If not, score ADL as least dependent of those episodes in range 2-5.\"",
-              "type": "display",
-              "linkId": "iG2-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
                   }
                 }
               ]
@@ -7667,463 +7664,515 @@
           ]
         },
         {
-          "type": "group",
-          "code": [
-            {
-              "code": "iI2",
-              "display": "Other disease diagnoses"
-            }
-          ],
-          "required": false,
-          "linkId": "iI2",
-          "text": "2. Other disease diagnoses",
-          "item": [
-            {
-              "type": "string",
-              "code": [],
-              "extension": [
-                {
-                  "url": "http://lhcforms.nlm.nih.gov/fhirExt/dataControl",
-                  "valueString": "[]"
-                }
-              ],
-              "required": false,
-              "linkId": "iI2ac",
-              "text": "a. Diagnosis",
-              "item": [
-                {
-                  "type": "choice",
-                  "code": [
+            "type": "group",
+            "code": [
+              {
+                "code": "iI2",
+                "display": "Other disease diagnoses"
+              }
+            ],
+            "required": false,
+            "linkId": "iI2",
+            "text": "2. Other disease diagnoses",
+            "item": [
+              {
+                "type": "group",
+                "code": [
+                  {
+                    "code": "iI2a",
+                    "display": "Diagnosis a.",
+                    "system": "https://interrai.org/"
+                  }
+                ],
+                "required": false,
+                "linkId": "iI2a",
+                "text": "Diagnosis a.",
+                "item": [
+                  {
+                    "type": "string",
+                    "code": [],
+                    "required": false,
+                    "linkId": "iI2ac",
+                    "text": "a. Diagnosis"
+                  },
+                  {
+                    "type": "choice",
+                    "code": [
+                      {
+                        "code": "iI2aa",
+                        "display": "Disease code"
+                      }
+                    ],
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://hl7.org/fhir/questionnaire-item-control",
+                              "code": "drop-down",
+                              "display": "Drop down"
+                            }
+                          ],
+                          "text": "Drop down"
+                        }
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2aa",
+                    "text": "Disease code",
+                    "answerOption": [
+                      {
+                        "valueCoding": {
+                          "code": "1",
+                          "display": "1. Primary diagnosis / diagnoses for current stay"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "2",
+                          "display": "2. Diagnosis present, receiving active treatment"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "3",
+                          "display": "3. Diagnosis present, monitored but no active treatment"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "code": [],
+                    "required": false,
+                    "linkId": "iI2abb",
+                    "text": "ICD code"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "code": [
+                  {
+                    "code": "iI2b",
+                    "display": "Diagnosis b."
+                  }
+                ],
+                "required": false,
+                "linkId": "iI2b",
+                "text": "Diagnosis b.",
+                "item": [
+                  {
+                    "type": "string",
+                    "code": [
+                      {
+                        "code": "iI2bc",
+                        "display": "b. Diagnosis"
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2bc",
+                    "text": "b. Diagnosis"
+                  },
+                  {
+                    "type": "choice",
+                    "code": [
+                      {
+                        "code": "iI2ba",
+                        "display": "Disease code"
+                      }
+                    ],
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://hl7.org/fhir/questionnaire-item-control",
+                              "code": "drop-down",
+                              "display": "Drop down"
+                            }
+                          ],
+                          "text": "Drop down"
+                        }
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2ba",
+                    "text": "Disease code",
+                    "answerOption": [
+                      {
+                        "valueCoding": {
+                          "code": "1",
+                          "display": "1. Primary diagnosis / diagnoses for current stay"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "2",
+                          "display": "2. Diagnosis present, receiving active treatment"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "3",
+                          "display": "3. Diagnosis present, monitored but no active treatment"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "code": [],
+                    "required": false,
+                    "linkId": "iI2bbb",
+                    "text": "ICD code"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "code": [
+                  {
+                    "code": "iI2c",
+                    "display": "Diagnosis c."
+                  }
+                ],
+                "required": false,
+                "linkId": "iI2c",
+                "text": "Diagnosis c.",
+                "item": [
+                  {
+                    "type": "string",
+                    "code": [
+                      {
+                        "code": "iI2cc",
+                        "display": "c. Diagnosis"
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2cc",
+                    "text": "c. Diagnosis"
+                  },
+                  {
+                    "type": "choice",
+                    "code": [
+                      {
+                        "code": "iI2ca",
+                        "display": "Disease code"
+                      }
+                    ],
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://hl7.org/fhir/questionnaire-item-control",
+                              "code": "drop-down",
+                              "display": "Drop down"
+                            }
+                          ],
+                          "text": "Drop down"
+                        }
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2ca",
+                    "text": "Disease code",
+                    "answerOption": [
+                      {
+                        "valueCoding": {
+                          "code": "1",
+                          "display": "1. Primary diagnosis / diagnoses for current stay"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "2",
+                          "display": "2. Diagnosis present, receiving active treatment"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "3",
+                          "display": "3. Diagnosis present, monitored but no active treatment"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "code": [],
+                    "required": false,
+                    "linkId": "iI2cbb",
+                    "text": "ICD code"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "code": [
+                  {
+                    "code": "iI2d",
+                    "display": "Diagnosis d."
+                  }
+                ],
+                "required": false,
+                "linkId": "iI2d",
+                "text": "Diagnosis d.",
+                "item": [
+                  {
+                    "type": "string",
+                    "code": [
+                      {
+                        "code": "iI2dc",
+                        "display": "d. Diagnosis"
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2dc",
+                    "text": "d. Diagnosis"
+                  },
+                  {
+                    "type": "choice",
+                    "code": [
+                      {
+                        "code": "iI2da",
+                        "display": "Disease code"
+                      }
+                    ],
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://hl7.org/fhir/questionnaire-item-control",
+                              "code": "drop-down",
+                              "display": "Drop down"
+                            }
+                          ],
+                          "text": "Drop down"
+                        }
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2da",
+                    "text": "Disease code",
+                    "answerOption": [
+                      {
+                        "valueCoding": {
+                          "code": "1",
+                          "display": "1. Primary diagnosis / diagnoses for current stay"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "2",
+                          "display": "2. Diagnosis present, receiving active treatment"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "3",
+                          "display": "3. Diagnosis present, monitored but no active treatment"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "code": [],
+                    "required": false,
+                    "linkId": "iI2dbb",
+                    "text": "ICD code"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "code": [
+                  {
+                    "code": "iI2e",
+                    "display": "Diagnosis e."
+                  }
+                ],
+                "required": false,
+                "linkId": "iI2e",
+                "text": "Diagnosis e.",
+                "item": [
+                  {
+                    "type": "string",
+                    "code": [
+                      {
+                        "code": "iI2ec",
+                        "display": "e. Diagnosis"
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2ec",
+                    "text": "e. Diagnosis"
+                  },
+                  {
+                    "type": "choice",
+                    "code": [
+                      {
+                        "code": "iI2ea",
+                        "display": "Disease code"
+                      }
+                    ],
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://hl7.org/fhir/questionnaire-item-control",
+                              "code": "drop-down",
+                              "display": "Drop down"
+                            }
+                          ],
+                          "text": "Drop down"
+                        }
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2ea",
+                    "text": "Disease code",
+                    "answerOption": [
+                      {
+                        "valueCoding": {
+                          "code": "1",
+                          "display": "1. Primary diagnosis / diagnoses for current stay"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "2",
+                          "display": "2. Diagnosis present, receiving active treatment"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "3",
+                          "display": "3. Diagnosis present, monitored but no active treatment"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "code": [],
+                    "required": false,
+                    "linkId": "iI2ebb",
+                    "text": "ICD code"
+                  }
+                ]
+              },
+              {
+                "type": "group",
+                "code": [
+                  {
+                    "code": "iI2f",
+                    "display": "Diagnosis f."
+                  }
+                ],
+                "required": false,
+                "linkId": "iI2f",
+                "text": "Diagnosis f.",
+                "item": [
                     {
-                      "code": "iI2aa",
-                      "display": "Disease code"
+                    "type": "string",
+                    "code": [
+                      {
+                        "code": "iI2fc",
+                        "display": "f. Diagnosis"
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2fc",
+                    "text": "f. Diagnosis"
+                  },
+                  {
+                    "type": "choice",
+                    "code": [
+                      {
+                        "code": "iI2fa",
+                        "display": "Disease code"
+                      }
+                    ],
+                    "extension": [
+                      {
+                        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                        "valueCodeableConcept": {
+                          "coding": [
+                            {
+                              "system": "http://hl7.org/fhir/questionnaire-item-control",
+                              "code": "drop-down",
+                              "display": "Drop down"
+                            }
+                          ],
+                          "text": "Drop down"
+                        }
+                      }
+                    ],
+                    "required": false,
+                    "linkId": "iI2fa",
+                    "text": "Disease code",
+                    "answerOption": [
+                      {
+                        "valueCoding": {
+                          "code": "1",
+                          "display": "1. Primary diagnosis / diagnoses for current stay"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "2",
+                          "display": "2. Diagnosis present, receiving active treatment"
+                        }
+                      },
+                      {
+                        "valueCoding": {
+                          "code": "3",
+                          "display": "3. Diagnosis present, monitored but no active treatment"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "code": [],
+                    "required": false,
+                    "linkId": "iI2fbb",
+                    "text": "ICD code"
+                  }
+                ]
+              },
+              {
+                "text": "[Note: Add additional lines as necessary for other diseases]",
+                "type": "display",
+                "linkId": "iI2f-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
                     }
-                  ],
-                  "extension": [
-                    {
-                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                      "valueCodeableConcept": {
-                        "coding": [
-                          {
-                            "system": "http://hl7.org/fhir/questionnaire-item-control",
-                            "code": "drop-down",
-                            "display": "Drop down"
-                          }
-                        ],
-                        "text": "Drop down"
-                      }
-                    }
-                  ],
-                  "required": false,
-                  "linkId": "iI2aa",
-                  "text": "Disease code",
-                  "answerOption": [
-                    {
-                      "valueCoding": {
-                        "code": "1",
-                        "display": "1. Primary diagnosis / diagnoses for current stay"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "2",
-                        "display": "2. Diagnosis present, receiving active treatment"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "3",
-                        "display": "3. Diagnosis present, monitored but no active treatment"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "string",
-                  "code": [],
-                  "required": false,
-                  "linkId": "iI2abb",
-                  "text": "ICD code"
-                }
-              ]
-            },
-            {
-              "type": "string",
-              "code": [
-                {
-                  "code": "iI2bc",
-                  "display": "b. Diagnosis"
-                }
-              ],
-              "required": false,
-              "linkId": "iI2bc",
-              "text": "b. Diagnosis",
-              "enableWhen": [
-                {
-                  "answerBoolean": true,
-                  "question": "iI2ac",
-                  "operator": "exists"
-                }
-              ],
-              "item": [
-                {
-                  "type": "choice",
-                  "code": [
-                    {
-                      "code": "iI2ba",
-                      "display": "Disease code"
-                    }
-                  ],
-                  "extension": [
-                    {
-                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                      "valueCodeableConcept": {
-                        "coding": [
-                          {
-                            "system": "http://hl7.org/fhir/questionnaire-item-control",
-                            "code": "drop-down",
-                            "display": "Drop down"
-                          }
-                        ],
-                        "text": "Drop down"
-                      }
-                    }
-                  ],
-                  "required": false,
-                  "linkId": "iI2ba",
-                  "text": "Disease code",
-                  "answerOption": [
-                    {
-                      "valueCoding": {
-                        "code": "1",
-                        "display": "1. Primary diagnosis / diagnoses for current stay"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "2",
-                        "display": "2. Diagnosis present, receiving active treatment"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "3",
-                        "display": "3. Diagnosis present, monitored but no active treatment"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "string",
-                  "code": [],
-                  "required": false,
-                  "linkId": "iI2bbb",
-                  "text": "ICD code"
-                }
-              ]
-            },
-            {
-              "type": "string",
-              "code": [
-                {
-                  "code": "iI2cc",
-                  "display": "c. Diagnosis"
-                }
-              ],
-              "required": false,
-              "linkId": "iI2cc",
-              "text": "c. Diagnosis",
-              "enableWhen": [
-                {
-                  "answerBoolean": true,
-                  "question": "iI2bc",
-                  "operator": "exists"
-                }
-              ],
-              "item": [
-                {
-                  "type": "choice",
-                  "code": [
-                    {
-                      "code": "iI2ca",
-                      "display": "Disease code"
-                    }
-                  ],
-                  "extension": [
-                    {
-                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                      "valueCodeableConcept": {
-                        "coding": [
-                          {
-                            "system": "http://hl7.org/fhir/questionnaire-item-control",
-                            "code": "drop-down",
-                            "display": "Drop down"
-                          }
-                        ],
-                        "text": "Drop down"
-                      }
-                    }
-                  ],
-                  "required": false,
-                  "linkId": "iI2ca",
-                  "text": "Disease code",
-                  "answerOption": [
-                    {
-                      "valueCoding": {
-                        "code": "1",
-                        "display": "1. Primary diagnosis / diagnoses for current stay"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "2",
-                        "display": "2. Diagnosis present, receiving active treatment"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "3",
-                        "display": "3. Diagnosis present, monitored but no active treatment"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "string",
-                  "code": [],
-                  "required": false,
-                  "linkId": "iI2cbb",
-                  "text": "ICD code"
-                }
-              ]
-            },
-            {
-              "type": "string",
-              "code": [
-                {
-                  "code": "iI2dc",
-                  "display": "d. Diagnosis"
-                }
-              ],
-              "required": false,
-              "linkId": "iI2dc",
-              "text": "d. Diagnosis",
-              "enableWhen": [
-                {
-                  "answerBoolean": true,
-                  "question": "iI2cc",
-                  "operator": "exists"
-                }
-              ],
-              "item": [
-                {
-                  "type": "choice",
-                  "code": [
-                    {
-                      "code": "iI2da",
-                      "display": "Disease code"
-                    }
-                  ],
-                  "extension": [
-                    {
-                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                      "valueCodeableConcept": {
-                        "coding": [
-                          {
-                            "system": "http://hl7.org/fhir/questionnaire-item-control",
-                            "code": "drop-down",
-                            "display": "Drop down"
-                          }
-                        ],
-                        "text": "Drop down"
-                      }
-                    }
-                  ],
-                  "required": false,
-                  "linkId": "iI2da",
-                  "text": "Disease code",
-                  "answerOption": [
-                    {
-                      "valueCoding": {
-                        "code": "1",
-                        "display": "1. Primary diagnosis / diagnoses for current stay"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "2",
-                        "display": "2. Diagnosis present, receiving active treatment"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "3",
-                        "display": "3. Diagnosis present, monitored but no active treatment"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "string",
-                  "code": [],
-                  "required": false,
-                  "linkId": "iI2dbb",
-                  "text": "ICD code"
-                }
-              ]
-            },
-            {
-              "type": "string",
-              "code": [
-                {
-                  "code": "iI2ec",
-                  "display": "e. Diagnosis"
-                }
-              ],
-              "required": false,
-              "linkId": "iI2ec",
-              "text": "e. Diagnosis",
-              "enableWhen": [
-                {
-                  "answerBoolean": true,
-                  "question": "iI2dc",
-                  "operator": "exists"
-                }
-              ],
-              "item": [
-                {
-                  "type": "choice",
-                  "code": [
-                    {
-                      "code": "iI2ea",
-                      "display": "Disease code"
-                    }
-                  ],
-                  "extension": [
-                    {
-                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                      "valueCodeableConcept": {
-                        "coding": [
-                          {
-                            "system": "http://hl7.org/fhir/questionnaire-item-control",
-                            "code": "drop-down",
-                            "display": "Drop down"
-                          }
-                        ],
-                        "text": "Drop down"
-                      }
-                    }
-                  ],
-                  "required": false,
-                  "linkId": "iI2ea",
-                  "text": "Disease code",
-                  "answerOption": [
-                    {
-                      "valueCoding": {
-                        "code": "1",
-                        "display": "1. Primary diagnosis / diagnoses for current stay"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "2",
-                        "display": "2. Diagnosis present, receiving active treatment"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "3",
-                        "display": "3. Diagnosis present, monitored but no active treatment"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "string",
-                  "code": [],
-                  "required": false,
-                  "linkId": "iI2ebb",
-                  "text": "ICD code"
-                }
-              ]
-            },
-            {
-              "type": "string",
-              "code": [
-                {
-                  "code": "iI2fc",
-                  "display": "f. Diagnosis"
-                }
-              ],
-              "required": false,
-              "linkId": "iI2fc",
-              "text": "f. Diagnosis",
-              "enableWhen": [
-                {
-                  "answerBoolean": true,
-                  "question": "iI2ec",
-                  "operator": "exists"
-                }
-              ],
-              "item": [
-                {
-                  "type": "choice",
-                  "code": [
-                    {
-                      "code": "iI2fa",
-                      "display": "Disease code"
-                    }
-                  ],
-                  "extension": [
-                    {
-                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                      "valueCodeableConcept": {
-                        "coding": [
-                          {
-                            "system": "http://hl7.org/fhir/questionnaire-item-control",
-                            "code": "drop-down",
-                            "display": "Drop down"
-                          }
-                        ],
-                        "text": "Drop down"
-                      }
-                    }
-                  ],
-                  "required": false,
-                  "linkId": "iI2fa",
-                  "text": "Disease code",
-                  "answerOption": [
-                    {
-                      "valueCoding": {
-                        "code": "1",
-                        "display": "1. Primary diagnosis / diagnoses for current stay"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "2",
-                        "display": "2. Diagnosis present, receiving active treatment"
-                      }
-                    },
-                    {
-                      "valueCoding": {
-                        "code": "3",
-                        "display": "3. Diagnosis present, monitored but no active treatment"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "string",
-                  "code": [],
-                  "required": false,
-                  "linkId": "iI2fbb",
-                  "text": "ICD code"
-                }
-              ]
-            }
-          ]
-        }
+                  }
+                ]
+              }
+            ]
+          }
       ]
     },
     {
@@ -8214,26 +8263,9 @@
               }
             }
           ],
-          "required": false,
-          "linkId": "iJ12",
-          "text": "2. Recent falls",
-          "answerOption": [
-            {
-              "valueCoding": {
-                "code": "0",
-                "display": "0. No"
-              }
-            },
-            {
-              "valueCoding": {
-                "code": "1",
-                "display": "1. Yes"
-              }
-            }
-          ],
           "item": [
             {
-              "text": "Leave blank if 'Not applicable' (first assessment or more than 30 days since last assessment)",
+              "text": "[Skip if last assessed more than 30 days ago or if this is first assessment]. Leave blank if 'Not applicable' (first assessment or more than 30 days since last assessment)",
               "type": "display",
               "linkId": "iJ12-help",
               "extension": [
@@ -8251,6 +8283,23 @@
                   }
                 }
               ]
+            }
+          ],
+          "required": false,
+          "linkId": "iJ12",
+          "text": "2. Recent falls",
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "0",
+                "display": "0. No"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "1. Yes"
+              }
             }
           ]
         },
@@ -9532,7 +9581,7 @@
           "code": [
             {
               "code": "iJ3",
-              "display": "Dyspnoea (shortness of breath)"
+              "display": "4. Dyspnoea (shortness of breath)"
             }
           ],
           "extension": [
@@ -9552,7 +9601,7 @@
           ],
           "required": false,
           "linkId": "iJ3",
-          "text": "Dyspnoea (shortness of breath)",
+          "text": "4. Dyspnoea (shortness of breath)",
           "answerOption": [
             {
               "valueCoding": {
@@ -9585,7 +9634,29 @@
           "code": [
             {
               "code": "iJ4",
-              "display": "Fatigue"
+              "display": "5.Fatigue"
+            }
+          ],
+          "item": [
+            {
+              "text": "Inability to complete normal daily activities - e.g., ADLs, IADLs",
+              "type": "display",
+              "linkId": "iJ4-help",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                  "valueCodeableConcept": {
+                    "text": "Help-Button",
+                    "coding": [
+                      {
+                        "code": "help",
+                        "display": "Help-Button",
+                        "system": "http://hl7.org/fhir/questionnaire-item-control"
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ],
           "extension": [
@@ -9605,7 +9676,7 @@
           ],
           "required": false,
           "linkId": "iJ4",
-          "text": "Fatigue",
+          "text": "5. Fatigue",
           "answerOption": [
             {
               "valueCoding": {
@@ -9637,28 +9708,6 @@
                 "display": "4. Unable to commence any normal day-to-day activities—Due to diminished energy"
               }
             }
-          ],
-          "item": [
-            {
-              "text": "Inability to complete normal daily activities - e.g., ADLs, IADLs",
-              "type": "display",
-              "linkId": "iJ4-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         {
@@ -9673,6 +9722,26 @@
           "linkId": "iJ5",
           "text": "6. Pain symptoms",
           "item": [
+            {
+                "text": "[Note: Always ask the person about pain frequency, intensity, and control. Observe person and ask others who are in contact with the person.]",
+                "type": "display",
+                "linkId": "iJ5-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
             {
               "type": "choice",
               "code": [
@@ -9943,26 +10012,6 @@
                   }
                 }
               ]
-            },
-            {
-              "text": "[Note: Always ask the person about pain frequency, intensity, and control. Observe person and ask others who are in contact with the person.]",
-              "type": "display",
-              "linkId": "iJ5-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -10107,7 +10156,7 @@
           "type": "choice",
           "code": [
             {
-              "code": "iJ8",
+              "code": "iJ7",
               "display": "Self-reported health"
             }
           ],
@@ -10126,8 +10175,30 @@
               }
             }
           ],
+          "item": [
+            {
+              "text": "Ask: \"In general, how would you rate your health?\"",
+              "type": "display",
+              "linkId": "iJ7-help",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                  "valueCodeableConcept": {
+                    "text": "Help-Button",
+                    "coding": [
+                      {
+                        "code": "help",
+                        "display": "Help-Button",
+                        "system": "http://hl7.org/fhir/questionnaire-item-control"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "required": false,
-          "linkId": "iJ8",
+          "linkId": "iJ7",
           "text": "8. Self-reported health",
           "answerOption": [
             {
@@ -10160,33 +10231,12 @@
                 "display": "8. Could not (would not) respond"
               }
             }
-          ],
-          "item": [
-            {
-              "text": "Ask: \"In general, how would you rate your health?\"",
-              "type": "display",
-              "linkId": "iJ8-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         {
           "type": "group",
           "required": false,
+          "linkId": "iJ8",
           "text": "9. Tobacco and alcohol",
           "item": [
             {
@@ -10249,6 +10299,7 @@
                 }
               ],
               "required": false,
+              "linkId": "iJ8b",
               "text": "b. Alcohol-Highest number of drinks in any 'single sitting' in LAST 14 DAYS",
               "answerOption": [
                 {
@@ -10296,6 +10347,26 @@
           "text": "1. Height and Weight",
           "item": [
             {
+                "text": "\"Record (a.) height in centimetres and (b.) weight in kilograms. Base weight on most recent measure in LAST 30 DAYS.\"",
+                "type": "display",
+                "linkId": "iK1-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+            {
               "type": "integer",
               "code": [
                 {
@@ -10318,26 +10389,6 @@
               "required": false,
               "linkId": "iK1bb",
               "text": "b. WT (kg)"
-            },
-            {
-              "text": "\"Record (a.) height in centimetres and (b.) weight in kilograms. Base weight on most recent measure in LAST 30 DAYS.\"",
-              "type": "display",
-              "linkId": "iK1-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -10631,6 +10682,28 @@
               }
             }
           ],
+          "item": [
+            {
+              "text": "The proportion of TOTAL CALORIES received through parenteral or tube feedings in the LAST 3 DAYS",
+              "type": "display",
+              "linkId": "iK5-help",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                  "valueCodeableConcept": {
+                    "text": "Help-Button",
+                    "coding": [
+                      {
+                        "code": "help",
+                        "display": "Help-Button",
+                        "system": "http://hl7.org/fhir/questionnaire-item-control"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "required": false,
           "linkId": "iK5",
           "text": "4. Parenteral or enteral intake",
@@ -10665,33 +10738,12 @@
                 "display": "8. Unable to estimate"
               }
             }
-          ],
-          "item": [
-            {
-              "text": "The proportion of TOTAL CALORIES received through parenteral or tube feedings in the LAST 3 DAYS",
-              "type": "display",
-              "linkId": "iK5-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         {
           "type": "group",
           "required": false,
+          "linkId": "iK4",
           "text": "5. Dental or Oral",
           "item": [
             {
@@ -11328,9 +11380,31 @@
               }
             }
           ],
+          "item": [
+            {
+              "text": "[Note: When awake and not receiving treatments or ADL care]",
+              "type": "display",
+              "linkId": "iS1b-help",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                  "valueCodeableConcept": {
+                    "text": "Help-Button",
+                    "coding": [
+                      {
+                        "code": "help",
+                        "display": "Help-Button",
+                        "system": "http://hl7.org/fhir/questionnaire-item-control"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
           "required": false,
           "linkId": "iS1b",
-          "text": "1. Average time involved in activities - e.g., alone, in social group",
+          "text": "1. Average time involved in activities-e.g., alone, in social group",
           "answerOption": [
             {
               "valueCoding": {
@@ -11356,28 +11430,6 @@
                 "display": "3. Most—more than 2/3 of time"
               }
             }
-          ],
-          "item": [
-            {
-              "text": "[Note: When awake and not receiving treatments or ADL care]",
-              "type": "display",
-              "linkId": "iS1b-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
           ]
         },
         {
@@ -11385,7 +11437,7 @@
           "code": [
             {
               "code": "iS2",
-              "display": "Activity preferences and involvement"
+              "display": "2. Activity preferences and involvement (Adapted to current abilities)"
             }
           ],
           "required": false,
@@ -18945,12 +18997,12 @@
           "code": [
             {
               "code": "iN2",
-              "display": "Treatments and programs received or scheduled in the last 3 days"
+              "display": "2. Treatments and programs received or scheduled in the last 3 days (or since last assessment if less than 3 days)"
             }
           ],
           "required": false,
           "linkId": "iN2",
-          "text": "2. Therapy/Nursing services in last 7 days - e.g., therapist or therapy assistant under direction of therapist",
+          "text": "2. Treatments and programs received or scheduled in the last 3 days (or since last assessment if less than 3 days)",
           "item": [
             {
               "type": "choice",
@@ -19693,26 +19745,6 @@
                   }
                 }
               ]
-            },
-            {
-              "text": "[Note: Count only post-admission therapies]",
-              "type": "display",
-              "linkId": "iN2-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -19721,13 +19753,33 @@
           "code": [
             {
               "code": "iN3",
-              "display": "Therapy/Nursing services in last 7 days"
+              "display": "3. Therapy/Nursing services in last 7 days - e.g., therapist or therapy assistant under direction of therapist"
             }
           ],
           "required": false,
           "linkId": "iN3",
           "text": "3. Therapy/Nursing services in last 7 days - e.g., therapist or therapy assistant under direction of therapist",
           "item": [
+            {
+                "text": "[Note: Count only post-admission therapies]",
+                "type": "display",
+                "linkId": "iN3-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
             {
               "type": "group",
               "code": [
@@ -20179,26 +20231,6 @@
                   "text": "Psychological therapies - Total number of minutes provided in LAST 7 DAYS (or ordered if days administered = 0 and days scheduled > 0)"
                 }
               ]
-            },
-            {
-              "text": "[Note: Count only post-admission therapies]",
-              "type": "display",
-              "linkId": "iN3-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -20210,6 +20242,26 @@
           "text": "4. Hospital and emergency room use",
           "item": [
             {
+                "text": "Code for number of times in LAST 90 DAYS (or since last assessment if LESS THAN 90 DAYS)",
+                "type": "display",
+                "linkId": "iN5-help",
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                      "text": "Help-Button",
+                      "coding": [
+                        {
+                          "code": "help",
+                          "display": "Help-Button",
+                          "system": "http://hl7.org/fhir/questionnaire-item-control"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+            {
               "type": "integer",
               "code": [
                 {
@@ -20219,29 +20271,7 @@
               ],
               "required": false,
               "linkId": "iN5a",
-              "text": "a. In-patient acute care hospital with overnight stay",
-              "item": [
-                {
-                  "text": "Enter \"0\" if no hospital admissions occured in the last 90 days.",
-                  "type": "display",
-                  "linkId": "iN5a-help",
-                  "extension": [
-                    {
-                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                      "valueCodeableConcept": {
-                        "text": "Help-Button",
-                        "coding": [
-                          {
-                            "code": "help",
-                            "display": "Help-Button",
-                            "system": "http://hl7.org/fhir/questionnaire-item-control"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                }
-              ]
+              "text": "a. In-patient acute care hospital with overnight stay"
             },
             {
               "type": "integer",
@@ -20254,26 +20284,6 @@
               "required": false,
               "linkId": "iN5b",
               "text": "b. Emergency room / department visit (not counting overnight stay)"
-            },
-            {
-              "text": "Code for number of times in LAST 90 DAYS (or since last assessment if LESS THAN 90 DAYS)",
-              "type": "display",
-              "linkId": "iN5-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
-                  }
-                }
-              ]
             }
           ]
         },
@@ -20282,12 +20292,12 @@
           "code": [
             {
               "code": "iN7",
-              "display": "Physician visits"
+              "display": "5. PHYSICIAN VISITS - Number of days in LAST 14 DAYS (or since admission if less than 14 days in facility) physician examined person. Include authorized assistant or practitioner. Enter 0 if none."
             }
           ],
           "required": false,
           "linkId": "iN7",
-          "text": "5. Physician visits",
+          "text": "5. PHYSICIAN VISITS - Number of days in LAST 14 DAYS (or since admission if less than 14 days in facility) physician examined person. Include authorized assistant or practitioner. Enter 0 if none.",
           "item": [
             {
               "text": "\"Number of days in LAST 14 DAYS (or since admission if less than 14 days in facility) physician examined person. Include authorized assistant or practitioner. Enter 0 if none.\"",
@@ -20316,12 +20326,12 @@
           "code": [
             {
               "code": "iN8",
-              "display": "Physician orders"
+              "display": "6. PHYSICIAN ORDERS - Number of days in LAST 14 DAYS (or since admission if less than 14 days in facility) physician changed person's orders. Include authorized assistant or practitioner. Do not include order renewals without changes. Enter 0 if none."
             }
           ],
           "required": false,
           "linkId": "iN8",
-          "text": "6. Physician orders",
+          "text": "6. PHYSICIAN ORDERS - Number of days in LAST 14 DAYS (or since admission if less than 14 days in facility) physician changed person's orders. Include authorized assistant or practitioner. Do not include order renewals without changes. Enter 0 if none.",
           "item": [
             {
               "text": "\"Number of days in LAST 14 DAYS (or since admission if less than 14 days in facility) physician changed person's orders. Include authorized assistant or practitioner. Do not include order renewals without changes. Enter 0 if none.\"",
@@ -20529,13 +20539,13 @@
                 {
                   "valueCoding": {
                     "code": "2",
-                    "display": "2. Used daily — Nights only"
+                    "display": "2. Used daily-Nights only"
                   }
                 },
                 {
                   "valueCoding": {
                     "code": "3",
-                    "display": "3. Used daily — Days only"
+                    "display": "3. Used daily-Days only"
                   }
                 },
                 {
@@ -20762,6 +20772,7 @@
                 }
               ],
               "required": false,
+              "linkId": "iO1e",
               "text": "e. Family member responsible",
               "answerOption": [
                 {
@@ -21331,6 +21342,26 @@
       "text": "SECTION R. Discharge",
       "item": [
         {
+            "text": "[Note: Complete Section R at Discharge only]",
+            "type": "display",
+            "linkId": "iT-help",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                "valueCodeableConcept": {
+                  "text": "Help-Button",
+                  "coding": [
+                    {
+                      "code": "help",
+                      "display": "Help-Button",
+                      "system": "http://hl7.org/fhir/questionnaire-item-control"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+        {
           "type": "date",
           "code": [
             {
@@ -21528,26 +21559,6 @@
               "valueCoding": {
                 "code": "1",
                 "display": "1. Yes"
-              }
-            }
-          ]
-        },
-        {
-          "text": "[Note: Complete Section R at Discharge only]",
-          "type": "display",
-          "linkId": "iT-help",
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-              "valueCodeableConcept": {
-                "text": "Help-Button",
-                "coding": [
-                  {
-                    "code": "help",
-                    "display": "Help-Button",
-                    "system": "http://hl7.org/fhir/questionnaire-item-control"
-                  }
-                ]
               }
             }
           ]
