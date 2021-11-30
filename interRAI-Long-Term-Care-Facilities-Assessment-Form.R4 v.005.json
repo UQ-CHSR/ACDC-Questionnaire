@@ -8316,6 +8316,26 @@
           "text": "3. Problem frequency",
           "item": [
             {
+              "text": "Code for presence in last 3 days",
+              "type": "display",
+              "linkId": "iJ2-help",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                  "valueCodeableConcept": {
+                    "text": "Help-Button",
+                    "coding": [
+                      {
+                        "code": "help",
+                        "display": "Help-Button",
+                        "system": "http://hl7.org/fhir/questionnaire-item-control"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
               "type": "choice",
               "code": [
                 {
@@ -9550,26 +9570,6 @@
                   "valueCoding": {
                     "code": "4",
                     "display": "4. Exhibited daily in last 3 days"
-                  }
-                }
-              ]
-            },
-            {
-              "text": "Code for presence in last 3 days",
-              "type": "display",
-              "linkId": "iJ2-help",
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-                  "valueCodeableConcept": {
-                    "text": "Help-Button",
-                    "coding": [
-                      {
-                        "code": "help",
-                        "display": "Help-Button",
-                        "system": "http://hl7.org/fhir/questionnaire-item-control"
-                      }
-                    ]
                   }
                 }
               ]
