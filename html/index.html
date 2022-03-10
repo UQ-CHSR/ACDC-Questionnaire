@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACDC Questionnaire</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="fetch.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="accordion accordion-flush" id="accordionFlush">
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingA">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA" aria-expanded="false" aria-controls="flush-collapseA">
+                    SECTION A. Identification Information
+                </button>
+            </div>
+            <div id="flush-collapseA" class="accordion-collapse collapse" aria-labelledby="flush-headingA" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingB">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseB" aria-expanded="false" aria-controls="flush-collapseB">
+                    SECTION B. Intake and Initial History
+                </button>
+            </div>
+            <div id="flush-collapseB" class="accordion-collapse collapse" aria-labelledby="flush-headingB" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingC">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseC" aria-expanded="false" aria-controls="flush-collapseC">
+                    SECTION C. Cognition
+                </button>
+            </div>
+            <div id="flush-collapseC" class="accordion-collapse collapse" aria-labelledby="flush-headingC" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingD">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseD" aria-expanded="false" aria-controls="flush-collapseD">
+                    SECTION D. Communication and Vision
+                </button>
+            </div>
+            <div id="flush-collapseD" class="accordion-collapse collapse" aria-labelledby="flush-headingD" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingE">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseE" aria-expanded="false" aria-controls="flush-collapseE">
+                    SECTION E. Mood and Behaviour
+                </button>
+            </div>
+            <div id="flush-collapseE" class="accordion-collapse collapse" aria-labelledby="flush-headingE" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+        
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingF">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseF" aria-expanded="false" aria-controls="flush-collapseF">
+                    SECTION F. Psychosocial Well-being
+                </button>
+            </div>
+            <div id="flush-collapseF" class="accordion-collapse collapse" aria-labelledby="flush-headingF" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingG">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseG" aria-expanded="false" aria-controls="flush-collapseG">
+                    SECTION G. Functional Status
+                </button>
+            </div>
+            <div id="flush-collapseG" class="accordion-collapse collapse" aria-labelledby="flush-headingG" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingH">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseH" aria-expanded="false" aria-controls="flush-collapseH">
+                    SECTION H. Continence
+                </button>
+            </div>
+            <div id="flush-collapseH" class="accordion-collapse collapse" aria-labelledby="flush-headingH" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+                
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingI">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseI" aria-expanded="false" aria-controls="flush-collapseI">
+                    SECTION I. Disease diagnoses
+                </button>
+            </div>
+            <div id="flush-collapseI" class="accordion-collapse collapse" aria-labelledby="flush-headingI" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingJ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseJ" aria-expanded="false" aria-controls="flush-collapseJ">
+                    SECTION J. Health Conditions
+                </button>
+            </div>
+            <div id="flush-collapseJ" class="accordion-collapse collapse" aria-labelledby="flush-headingJ" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingK">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseK" aria-expanded="false" aria-controls="flush-collapseK">
+                    SECTION K. Oral and Nutritional Status
+                </button>
+            </div>
+            <div id="flush-collapseK" class="accordion-collapse collapse" aria-labelledby="flush-headingK" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingL">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseL" aria-expanded="false" aria-controls="flush-collapseL">
+                    SECTION L. Skin Condition
+                </button>
+            </div>
+            <div id="flush-collapseL" class="accordion-collapse collapse" aria-labelledby="flush-headingL" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingM">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseM" aria-expanded="false" aria-controls="flush-collapseM">
+                    SECTION M. Activity Pursuit
+                </button>
+            </div>
+            <div id="flush-collapseM" class="accordion-collapse collapse" aria-labelledby="flush-headingM" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingN">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseN" aria-expanded="false" aria-controls="flush-collapseN">
+                    SECTION N. Medications
+                </button>
+            </div>
+            <div id="flush-collapseN" class="accordion-collapse collapse" aria-labelledby="flush-headingN" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingO">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseO" aria-expanded="false" aria-controls="flush-collapseO">
+                    SECTION O. Treatmeants and Procedures
+                </button>
+            </div>
+            <div id="flush-collapseO" class="accordion-collapse collapse" aria-labelledby="flush-headingO" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingP">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseP" aria-expanded="false" aria-controls="flush-collapseP">
+                    SECTION P. Responsibility and Directives
+                </button>
+            </div>
+            <div id="flush-collapseP" class="accordion-collapse collapse" aria-labelledby="flush-headingP" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingQ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseQ" aria-expanded="false" aria-controls="flush-collapseQ">
+                    SECTION Q. Discharge Potential
+                </button>
+            </div>
+            <div id="flush-collapseQ" class="accordion-collapse collapse" aria-labelledby="flush-headingQ" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingR">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseR" aria-expanded="false" aria-controls="flush-collapseR">
+                    SECTION R. Discharge
+                </button>
+            </div>
+            <div id="flush-collapseR" class="accordion-collapse collapse" aria-labelledby="flush-headingR" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset form="onlyform" class="accordion-item">
+            <div class="accordion-header" id="flush-headingS">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseS" aria-expanded="false" aria-controls="flush-collapseS">
+                    SECTION S. Assessment Information
+                </button>
+            </div>
+            <div id="flush-collapseS" class="accordion-collapse collapse" aria-labelledby="flush-headingS" data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" aria-describedby="name">
+                    <div class="form-text">Patient Name</div>
+                </div>
+            </div>
+        </fieldset>
+
+    </div>
+
+    <form id="onlyform" 
+        method="post" 
+        action="https://api.smile.phreak.link" 
+        onsubmit="return submitJson()">
+        <input type="submit" class"form-button">
+    </form>
+</body>
+</html>
