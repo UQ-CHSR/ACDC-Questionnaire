@@ -11,7 +11,7 @@
     ]
   },
   "status": "completed",
-  "authored": "2021-09-24T03:36:40.275Z",
+  "authored": "2021-09-27T05:09:18.794Z",
   "item": [
     {
       "linkId": "iA",
@@ -26,7 +26,7 @@
               "text": "a. First",
               "answer": [
                 {
-                  "valueString": "Homer"
+                  "valueString": "Lisa"
                 }
               ]
             },
@@ -35,7 +35,7 @@
               "text": "b. Middle",
               "answer": [
                 {
-                  "valueString": "J."
+                  "valueString": "M."
                 }
               ]
             },
@@ -53,7 +53,7 @@
               "text": "d. Title",
               "answer": [
                 {
-                  "valueString": "Mr"
+                  "valueString": "Dr."
                 }
               ]
             }
@@ -65,8 +65,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "1",
-                "display": "Male"
+                "code": "2",
+                "display": "Female"
               }
             }
           ]
@@ -76,7 +76,7 @@
           "text": "3. BirthDate",
           "answer": [
             {
-              "valueDate": "1950-05-20"
+              "valueDate": "1965-02-21"
             }
           ]
         },
@@ -86,8 +86,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "4",
-                "display": "Widowed"
+                "code": "5",
+                "display": "Separated"
               }
             }
           ]
@@ -97,7 +97,7 @@
           "text": "5. National Numeric Identifier",
           "answer": [
             {
-              "valueString": "112233"
+              "valueString": "28282882"
             }
           ]
         },
@@ -106,7 +106,7 @@
           "text": "6. Facility/Agency Provider Number",
           "answer": [
             {
-              "valueString": "332211"
+              "valueString": "82828228"
             }
           ]
         },
@@ -127,7 +127,7 @@
           "text": "8. Assessment Reference Date",
           "answer": [
             {
-              "valueDate": "2021-06-25"
+              "valueDate": "2021-09-27"
             }
           ]
         },
@@ -140,7 +140,7 @@
               "text": "Expressed goals of care",
               "answer": [
                 {
-                  "valueString": "Lower BGL\nImprove mobility"
+                  "valueString": "Adhere to medication\nImprove sleep"
                 }
               ]
             },
@@ -149,7 +149,7 @@
               "text": "Primary Goal",
               "answer": [
                 {
-                  "valueString": "Improve mobility"
+                  "valueString": "Improve sleep"
                 }
               ]
             }
@@ -161,8 +161,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "3",
-                "display": "8–14 days ago"
+                "code": "4",
+                "display": "In last 7 days"
               }
             }
           ]
@@ -190,7 +190,7 @@
           "text": "2. Date stay began",
           "answer": [
             {
-              "valueDate": "2021-03-18"
+              "valueDate": "2021-08-14"
             }
           ]
         },
@@ -203,7 +203,7 @@
               "text": "a. Country of birth: Specify",
               "answer": [
                 {
-                  "valueString": "Australia"
+                  "valueString": "Scotland"
                 }
               ]
             },
@@ -243,8 +243,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "6",
-                    "display": "Supported community accommodation"
+                    "code": "10",
+                    "display": "Setting for persons with intellectual disability"
                   }
                 }
               ]
@@ -255,8 +255,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "6",
-                    "display": "Supported community accommodation"
+                    "code": "11",
+                    "display": "Residential aged care service - low-level care"
                   }
                 }
               ]
@@ -268,7 +268,7 @@
           "text": "6. Post code of usual living arrangement prior to admission",
           "answer": [
             {
-              "valueString": "4215"
+              "valueString": "4550"
             }
           ]
         },
@@ -278,8 +278,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "8",
-                "display": "With nonrelative(s)"
+                "code": "6",
+                "display": "With sibling(s)"
               }
             }
           ]
@@ -318,8 +318,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "Yes"
+                    "code": "0",
+                    "display": "No"
                   }
                 }
               ]
@@ -342,8 +342,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "No"
+                    "code": "1",
+                    "display": "Yes"
                   }
                 }
               ]
@@ -389,8 +389,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "Yes"
+                    "code": "0",
+                    "display": "No"
                   }
                 }
               ]
@@ -401,8 +401,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "No"
+                    "code": "1",
+                    "display": "Yes"
                   }
                 }
               ]
@@ -413,8 +413,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "Yes"
+                    "code": "0",
+                    "display": "No"
                   }
                 }
               ]
@@ -443,8 +443,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "Behaviour not present"
+                    "code": "1",
+                    "display": "Behaviour present, consistent with usual functioning"
                   }
                 }
               ]
@@ -455,8 +455,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "Behaviour present, consistent with usual functioning"
+                    "code": "2",
+                    "display": "Behaviour present, appears different from usual functioning (e.g., new onset or worsening; different from a few weeks ago)"
                   }
                 }
               ]
@@ -467,8 +467,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "Behaviour present, appears different from usual functioning (e.g., new onset or worsening; different from a few weeks ago)"
+                    "code": "0",
+                    "display": "Behaviour not present"
                   }
                 }
               ]
@@ -481,8 +481,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "0",
-                "display": "No"
+                "code": "1",
+                "display": "Yes"
               }
             }
           ]
@@ -493,8 +493,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "2",
-                "display": "Declined"
+                "code": "1",
+                "display": "No change"
               }
             }
           ]
@@ -511,8 +511,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "2",
-                "display": "2. Often understood — Difficulty finding words or finishing thoughts AND prompting usually required"
+                "code": "1",
+                "display": "1. Usually understood — Difficulty finding words or finishing thoughts BUT if given time, little or no prompting required"
               }
             }
           ]
@@ -523,8 +523,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "1",
-                "display": "1. Usually understands — Misses some part / intent of message BUT comprehends most conversation"
+                "code": "3",
+                "display": "3. Sometimes understands — Responds adequately to simple, direct communication only"
               }
             }
           ]
@@ -538,8 +538,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Severe difficulty — Difficulty in all situations (e.g., speaker has to talk loudly or speak very slowly; or person reports that all speech is mumbled)"
+                    "code": "0",
+                    "display": "0. Adequate — No difficulty in normal conversation, social interaction, listening to TV"
                   }
                 }
               ]
@@ -567,8 +567,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Severe difficulty — Object identification in question, but eyes appear to follow objects; sees only light, colours, shapes"
+                    "code": "2",
+                    "display": "2. Moderate difficulty — Limited vision; not able to see newspaper headlines but can identify objects"
                   }
                 }
               ]
@@ -579,8 +579,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -615,8 +615,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "3",
+                    "display": "3. Exhibited daily in last 3 days"
                   }
                 }
               ]
@@ -627,8 +627,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Exhibited on 1–2 of last 3 days"
+                    "code": "1",
+                    "display": "1. Present but not exhibited in last 3 days"
                   }
                 }
               ]
@@ -651,8 +651,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Exhibited on 1–2 of last 3 days"
+                    "code": "3",
+                    "display": "3. Exhibited daily in last 3 days"
                   }
                 }
               ]
@@ -663,8 +663,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Exhibited on 1–2 of last 3 days"
+                    "code": "1",
+                    "display": "1. Present but not exhibited in last 3 days"
                   }
                 }
               ]
@@ -675,8 +675,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Present but not exhibited in last 3 days"
+                    "code": "2",
+                    "display": "2. Exhibited on 1–2 of last 3 days"
                   }
                 }
               ]
@@ -687,8 +687,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Exhibited daily in last 3 days"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -699,8 +699,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "2",
+                    "display": "2. Exhibited on 1–2 of last 3 days"
                   }
                 }
               ]
@@ -711,8 +711,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Exhibited on 1–2 of last 3 days"
+                    "code": "3",
+                    "display": "3. Exhibited daily in last 3 days"
                   }
                 }
               ]
@@ -723,8 +723,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "1",
+                    "display": "1. Present but not exhibited in last 3 days"
                   }
                 }
               ]
@@ -741,8 +741,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not in last 3 days"
+                    "code": "3",
+                    "display": "3. Daily in last 3 days"
                   }
                 }
               ]
@@ -783,8 +783,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Present but not exhibited in last 3 days"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -807,8 +807,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "2",
+                    "display": "2. Exhibited on 1–2 of last 3 days"
                   }
                 }
               ]
@@ -819,8 +819,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Exhibited daily in last 3 days"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -831,8 +831,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "2",
+                    "display": "2. Exhibited on 1–2 of last 3 days"
                   }
                 }
               ]
@@ -843,8 +843,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Exhibited daily in last 3 days"
+                    "code": "2",
+                    "display": "2. Exhibited on 1–2 of last 3 days"
                   }
                 }
               ]
@@ -867,8 +867,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. More than 30 days ago"
+                    "code": "2",
+                    "display": "2. 8–30 days ago"
                   }
                 }
               ]
@@ -879,8 +879,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. 8–30 days ago"
+                    "code": "0",
+                    "display": "0. Never"
                   }
                 }
               ]
@@ -891,8 +891,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "4",
-                    "display": "4. In last 3 days"
+                    "code": "1",
+                    "display": "1. More than 30 days ago"
                   }
                 }
               ]
@@ -921,8 +921,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Present but not exhibited in last 3 days"
+                    "code": "2",
+                    "display": "2. Exhibited on 1–2 of last 3 days"
                   }
                 }
               ]
@@ -933,8 +933,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Present but not exhibited in last 3 days"
+                    "code": "2",
+                    "display": "2. Exhibited on 1–2 of last 3 days"
                   }
                 }
               ]
@@ -945,8 +945,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Exhibited daily in last 3 days"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -969,8 +969,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "1",
+                    "display": "1. Present but not exhibited in last 3 days"
                   }
                 }
               ]
@@ -981,8 +981,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Exhibited on 1–2 of last 3 days"
+                    "code": "3",
+                    "display": "3. Exhibited daily in last 3 days"
                   }
                 }
               ]
@@ -999,8 +999,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -1023,8 +1023,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -1047,8 +1047,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -1061,8 +1061,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "0",
-                "display": "0. No"
+                "code": "1",
+                "display": "1. Yes"
               }
             }
           ]
@@ -1101,8 +1101,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -1125,8 +1125,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Independent, setup help only — Article or device provided or placed within reach, no physical assistance or supervision in any episode"
+                    "code": "2",
+                    "display": "2. Supervision — Oversight / cuing"
                   }
                 }
               ]
@@ -1137,8 +1137,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "code": "3",
+                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
                   }
                 }
               ]
@@ -1161,8 +1161,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "4",
-                    "display": "4. Extensive assistance — Weight-bearing support (including lifting limbs) by 1 helper where person still performs 50% or more of subtasks"
+                    "code": "5",
+                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 }
               ]
@@ -1173,8 +1173,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "code": "2",
+                    "display": "2. Supervision — Oversight / cuing"
                   }
                 }
               ]
@@ -1185,8 +1185,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "6",
-                    "display": "6. Total dependence — Full performance by others during all episodes"
+                    "code": "5",
+                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
                   }
                 }
               ]
@@ -1197,8 +1197,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Limited assistance — Guided manoeuvring of limbs, physical guidance without taking weight"
+                    "code": "0",
+                    "display": "0. Independent — No physical assistance, setup, or supervision in any episode"
                   }
                 }
               ]
@@ -1209,8 +1209,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "5",
-                    "display": "5. Maximal assistance — Weight-bearing support (including lifting limbs) by 2+ helpers — OR — weight-bearing support for more than 50% of subtasks"
+                    "code": "6",
+                    "display": "6. Total dependence — Full performance by others during all episodes"
                   }
                 }
               ]
@@ -1263,8 +1263,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "04",
-                    "display": "4 seconds"
+                    "code": "09",
+                    "display": "9 seconds"
                   }
                 }
               ]
@@ -1287,8 +1287,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Wheeled self less than 15 feet (under 5 metres)"
+                    "code": "0",
+                    "display": "0. Wheeled by others"
                   }
                 }
               ]
@@ -1305,8 +1305,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. 1-2 hours"
+                    "code": "1",
+                    "display": "1. Less than 1 hour"
                   }
                 }
               ]
@@ -1317,8 +1317,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. 3 days"
+                    "code": "2",
+                    "display": "2. 1–2 days"
                   }
                 }
               ]
@@ -1335,8 +1335,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -1347,8 +1347,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -1379,8 +1379,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "1",
-                "display": "1. Control with any catheter or ostomy over last 3 days"
+                "code": "2",
+                "display": "2. Infrequently incontinent - Not incontinent over last 3 days, but does have incontinent episodes"
               }
             }
           ]
@@ -1403,8 +1403,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "3",
-                "display": "3. Occasionally incontinent — Less than daily"
+                "code": "4",
+                "display": "4. Frequently incontinent — Daily, but some control present"
               }
             }
           ]
@@ -1449,8 +1449,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Primary diagnosis / diagnoses for current stay"
+                    "code": "2",
+                    "display": "2. Diagnosis present, receiving active treatment"
                   }
                 }
               ]
@@ -1461,8 +1461,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Diagnosis present, receiving active treatment"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -1473,8 +1473,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "1",
+                    "display": "1. Primary diagnosis / diagnoses for current stay"
                   }
                 }
               ]
@@ -1485,8 +1485,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Diagnosis present, monitored but no active treatment"
+                    "code": "1",
+                    "display": "1. Primary diagnosis / diagnoses for current stay"
                   }
                 }
               ]
@@ -1497,8 +1497,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Diagnosis present, monitored but no active treatment"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -1509,8 +1509,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Diagnosis present, receiving active treatment"
+                    "code": "1",
+                    "display": "1. Primary diagnosis / diagnoses for current stay"
                   }
                 }
               ]
@@ -1521,8 +1521,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Primary diagnosis / diagnoses for current stay"
+                    "code": "2",
+                    "display": "2. Diagnosis present, receiving active treatment"
                   }
                 }
               ]
@@ -1533,8 +1533,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Diagnosis present, monitored but no active treatment"
+                    "code": "2",
+                    "display": "2. Diagnosis present, receiving active treatment"
                   }
                 }
               ]
@@ -1557,8 +1557,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Diagnosis present, receiving active treatment"
+                    "code": "3",
+                    "display": "3. Diagnosis present, monitored but no active treatment"
                   }
                 }
               ]
@@ -1569,8 +1569,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Diagnosis present, monitored but no active treatment"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -1593,8 +1593,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "1",
+                    "display": "1. Primary diagnosis / diagnoses for current stay"
                   }
                 }
               ]
@@ -1605,8 +1605,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "1",
+                    "display": "1. Primary diagnosis / diagnoses for current stay"
                   }
                 }
               ]
@@ -1617,8 +1617,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Diagnosis present, monitored but no active treatment"
+                    "code": "2",
+                    "display": "2. Diagnosis present, receiving active treatment"
                   }
                 }
               ]
@@ -1629,8 +1629,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Diagnosis present, receiving active treatment"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -1641,8 +1641,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Primary diagnosis / diagnoses for current stay"
+                    "code": "2",
+                    "display": "2. Diagnosis present, receiving active treatment"
                   }
                 }
               ]
@@ -1653,8 +1653,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Diagnosis present, receiving active treatment"
+                    "code": "3",
+                    "display": "3. Diagnosis present, monitored but no active treatment"
                   }
                 }
               ]
@@ -1665,8 +1665,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Diagnosis present, receiving active treatment"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -1677,8 +1677,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Diagnosis present, monitored but no active treatment"
+                    "code": "1",
+                    "display": "1. Primary diagnosis / diagnoses for current stay"
                   }
                 }
               ]
@@ -1694,10 +1694,42 @@
               "text": "a. Diagnosis",
               "answer": [
                 {
-                  "valueString": "IBS",
+                  "valueString": "Tuberous sclerosis",
                   "item": [
                     {
                       "linkId": "iI2aa",
+                      "text": "Disease code",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "code": "2",
+                            "display": "2. Diagnosis present, receiving active treatment"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iI2abb",
+                      "text": "ICD code",
+                      "answer": [
+                        {
+                          "valueString": "Q85.1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "iI2bc",
+              "text": "b. Diagnosis",
+              "answer": [
+                {
+                  "valueString": "Tuberous sclerosis",
+                  "item": [
+                    {
+                      "linkId": "iI2ba",
                       "text": "Disease code",
                       "answer": [
                         {
@@ -1709,11 +1741,11 @@
                       ]
                     },
                     {
-                      "linkId": "iI2abb",
+                      "linkId": "iI2bbb",
                       "text": "ICD code",
                       "answer": [
                         {
-                          "valueString": "Z89.17"
+                          "valueString": "Q85.1"
                         }
                       ]
                     }
@@ -1747,8 +1779,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "1",
-                "display": "1. Yes"
+                "code": "0",
+                "display": "0. No"
               }
             }
           ]
@@ -1763,8 +1795,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "2",
+                    "display": "2. Exhibited on 1 of last 3 days"
                   }
                 }
               ]
@@ -1775,8 +1807,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Present but not exhibited in last 3 days"
+                    "code": "2",
+                    "display": "2. Exhibited on 1 of last 3 days"
                   }
                 }
               ]
@@ -1787,8 +1819,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Exhibited on 1 of last 3 days"
+                    "code": "3",
+                    "display": "3. Exhibited on 2 of last 3 days"
                   }
                 }
               ]
@@ -1811,8 +1843,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "4",
-                    "display": "4. Exhibited daily in last 3 days"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -1835,8 +1867,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Present but not exhibited in last 3 days"
+                    "code": "4",
+                    "display": "4. Exhibited daily in last 3 days"
                   }
                 }
               ]
@@ -1847,8 +1879,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Exhibited on 1 of last 3 days"
+                    "code": "1",
+                    "display": "1. Present but not exhibited in last 3 days"
                   }
                 }
               ]
@@ -1859,8 +1891,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Exhibited on 2 of last 3 days"
+                    "code": "1",
+                    "display": "1. Present but not exhibited in last 3 days"
                   }
                 }
               ]
@@ -1871,8 +1903,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Exhibited on 2 of last 3 days"
+                    "code": "2",
+                    "display": "2. Exhibited on 1 of last 3 days"
                   }
                 }
               ]
@@ -1883,8 +1915,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Exhibited on 2 of last 3 days"
+                    "code": "2",
+                    "display": "2. Exhibited on 1 of last 3 days"
                   }
                 }
               ]
@@ -1895,8 +1927,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "4",
-                    "display": "4. Exhibited daily in last 3 days"
+                    "code": "3",
+                    "display": "3. Exhibited on 2 of last 3 days"
                   }
                 }
               ]
@@ -1907,8 +1939,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "3",
+                    "display": "3. Exhibited on 2 of last 3 days"
                   }
                 }
               ]
@@ -1919,8 +1951,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Present but not exhibited in last 3 days"
+                    "code": "4",
+                    "display": "4. Exhibited daily in last 3 days"
                   }
                 }
               ]
@@ -1931,8 +1963,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Exhibited on 1 of last 3 days"
+                    "code": "4",
+                    "display": "4. Exhibited daily in last 3 days"
                   }
                 }
               ]
@@ -1943,8 +1975,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Exhibited on 2 of last 3 days"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -1955,8 +1987,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "4",
-                    "display": "4. Exhibited daily in last 3 days"
+                    "code": "0",
+                    "display": "0. Not present"
                   }
                 }
               ]
@@ -1967,8 +1999,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not present"
+                    "code": "1",
+                    "display": "1. Present but not exhibited in last 3 days"
                   }
                 }
               ]
@@ -2003,8 +2035,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Exhibited on 2 of last 3 days"
+                    "code": "2",
+                    "display": "2. Exhibited on 1 of last 3 days"
                   }
                 }
               ]
@@ -2017,8 +2049,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "0",
-                "display": "0. Absence of symptom"
+                "code": "2",
+                "display": "2. Absent at rest but present when performed normal day-to-day activities"
               }
             }
           ]
@@ -2029,8 +2061,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "2",
-                "display": "2. Moderate — Due to diminished energy, UNABLE TO FINISH normal day-to-day activities"
+                "code": "3",
+                "display": "3. Severe — Due to diminished energy, UNABLE TO START SOME normal day-to-day activities"
               }
             }
           ]
@@ -2045,8 +2077,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No pain"
+                    "code": "2",
+                    "display": "2. Exhibited on 1–2 of last 3 days"
                   }
                 }
               ]
@@ -2057,8 +2089,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Mild"
+                    "code": "0",
+                    "display": "0. No pain"
                   }
                 }
               ]
@@ -2069,8 +2101,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Intermittent"
+                    "code": "1",
+                    "display": "1. Single episode during last 3 days"
                   }
                 }
               ]
@@ -2093,8 +2125,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Controlled when therapeutic regimen followed, but regimen not always followed as ordered"
+                    "code": "0",
+                    "display": "0. No issue of pain"
                   }
                 }
               ]
@@ -2111,8 +2143,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -2123,8 +2155,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -2149,8 +2181,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "1",
-                "display": "1. Good"
+                "code": "2",
+                "display": "2. Fair"
               }
             }
           ]
@@ -2164,8 +2196,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Not in last 3 days but is usually a daily smoker"
                   }
                 }
               ]
@@ -2175,8 +2207,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. 2-4"
+                    "code": "1",
+                    "display": "1. 1"
                   }
                 }
               ]
@@ -2198,7 +2230,7 @@
               "text": "a. HT (cm)",
               "answer": [
                 {
-                  "valueInteger": 176
+                  "valueInteger": 174
                 }
               ]
             },
@@ -2247,8 +2279,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -2259,8 +2291,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -2285,8 +2317,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "0",
-                "display": "0. No parenteral / enteral tube"
+                "code": "2",
+                "display": "2. 1–25% of total calories through device"
               }
             }
           ]
@@ -2300,8 +2332,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -2324,8 +2356,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -2336,8 +2368,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -2360,8 +2392,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -2380,8 +2412,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "2",
-                "display": "2. Partial loss of skin layers"
+                "code": "3",
+                "display": "3. Deep craters in the skin"
               }
             }
           ]
@@ -2404,8 +2436,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "0",
-                "display": "0. No"
+                "code": "1",
+                "display": "1. Yes"
               }
             }
           ]
@@ -2428,8 +2460,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "1",
-                "display": "1. Yes"
+                "code": "0",
+                "display": "0. No"
               }
             }
           ]
@@ -2452,8 +2484,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "2",
-                "display": "2. Foot problems limit walking"
+                "code": "3",
+                "display": "3. Foot problems prevent walking"
               }
             }
           ]
@@ -2486,8 +2518,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. No preference, involved in last 3 days"
+                    "code": "2",
+                    "display": "2. Preferred, not involved"
                   }
                 }
               ]
@@ -2498,8 +2530,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No preference, not involved in last 3 days"
+                    "code": "3",
+                    "display": "3. Preferred, regularly involved but not in last 3 days"
                   }
                 }
               ]
@@ -2522,8 +2554,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Preferred, not involved"
+                    "code": "4",
+                    "display": "4. Preferred, involved in last 3 days"
                   }
                 }
               ]
@@ -2534,8 +2566,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Preferred, regularly involved but not in last 3 days"
+                    "code": "0",
+                    "display": "0. No preference, not involved in last 3 days"
                   }
                 }
               ]
@@ -2546,8 +2578,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "4",
-                    "display": "4. Preferred, involved in last 3 days"
+                    "code": "1",
+                    "display": "1. No preference, involved in last 3 days"
                   }
                 }
               ]
@@ -2558,8 +2590,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No preference, not involved in last 3 days"
+                    "code": "1",
+                    "display": "1. No preference, involved in last 3 days"
                   }
                 }
               ]
@@ -2570,8 +2602,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. No preference, involved in last 3 days"
+                    "code": "2",
+                    "display": "2. Preferred, not involved"
                   }
                 }
               ]
@@ -2594,8 +2626,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Preferred, regularly involved but not in last 3 days"
+                    "code": "0",
+                    "display": "0. No preference, not involved in last 3 days"
                   }
                 }
               ]
@@ -2606,8 +2638,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "4",
-                    "display": "4. Preferred, involved in last 3 days"
+                    "code": "0",
+                    "display": "0. No preference, not involved in last 3 days"
                   }
                 }
               ]
@@ -2618,8 +2650,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No preference, not involved in last 3 days"
+                    "code": "2",
+                    "display": "2. Preferred, not involved"
                   }
                 }
               ]
@@ -2642,8 +2674,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. Preferred, not involved"
+                    "code": "1",
+                    "display": "1. No preference, involved in last 3 days"
                   }
                 }
               ]
@@ -2654,8 +2686,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Preferred, regularly involved but not in last 3 days"
+                    "code": "4",
+                    "display": "4. Preferred, involved in last 3 days"
                   }
                 }
               ]
@@ -2666,8 +2698,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "4",
-                    "display": "4. Preferred, involved in last 3 days"
+                    "code": "3",
+                    "display": "3. Preferred, regularly involved but not in last 3 days"
                   }
                 }
               ]
@@ -2701,14 +2733,14 @@
               "text": "1a. Name",
               "answer": [
                 {
-                  "valueString": "Abiraterone",
+                  "valueString": "triamcinolone",
                   "item": [
                     {
                       "linkId": "iM1b1",
                       "text": "b. Dose - A positive number such as 0.5, 5, 150, 300.",
                       "answer": [
                         {
-                          "valueInteger": 3
+                          "valueInteger": 156
                         }
                       ]
                     },
@@ -2730,8 +2762,8 @@
                       "answer": [
                         {
                           "valueCoding": {
-                            "code": "PO",
-                            "display": "PO (by mouth/oral)"
+                            "code": "TD",
+                            "display": "TD (transdermal)"
                           }
                         }
                       ]
@@ -2742,8 +2774,8 @@
                       "answer": [
                         {
                           "valueCoding": {
-                            "code": "Q8H",
-                            "display": "Q8H (every 8 hours)"
+                            "code": "Q6H",
+                            "display": "Q6H (every 6 hours)"
                           }
                         }
                       ]
@@ -2761,7 +2793,95 @@
                       ]
                     },
                     {
-                      "linkId": "iM1g",
+                      "linkId": "iM1g1",
+                      "text": "Select drug code system",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "display": "ATC"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1gb1",
+                      "text": "g. ATC code",
+                      "answer": [
+                        {
+                          "valueString": "R03BA06"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "iM1a2",
+              "text": "2a. Name",
+              "answer": [
+                {
+                  "valueString": "Addiclenz",
+                  "item": [
+                    {
+                      "linkId": "iM1b2",
+                      "text": "b. Dose - A positive number such as 0.5, 5, 150, 300.",
+                      "answer": [
+                        {
+                          "valueInteger": 30
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1c2",
+                      "text": "c. Unit - Code using the following list:",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "code": "ml",
+                            "display": "ml (millilitres)"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1d2",
+                      "text": "d. Route of administration - Code using the following list:",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "code": "PO",
+                            "display": "PO (by mouth/oral)"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1e2",
+                      "text": "e. Frequency - Code the number of times per day, week, or month the medication is administered using the following list:",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "code": "5D",
+                            "display": "5D (5 times daily)"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1f2",
+                      "text": "f. PRN",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "code": "0",
+                            "display": "0. No"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1g2",
                       "text": "Select drug code system",
                       "answer": [
                         {
@@ -2772,11 +2892,99 @@
                       ]
                     },
                     {
-                      "linkId": "iM1ga1",
+                      "linkId": "iM1ga2",
                       "text": "g. NDC code",
                       "answer": [
                         {
-                          "valueString": "72205-030"
+                          "valueString": "43742-1087"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "iM1a3",
+              "text": "3a. Name",
+              "answer": [
+                {
+                  "valueString": "Anthracinum",
+                  "item": [
+                    {
+                      "linkId": "iM1b3",
+                      "text": "b. Dose - A positive number such as 0.5, 5, 150, 300.",
+                      "answer": [
+                        {
+                          "valueInteger": 30
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1c3",
+                      "text": "c. Unit - Code using the following list:",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "code": "oz",
+                            "display": "oz (ounces)"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1d3",
+                      "text": "d. Route of administration - Code using the following list:",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "code": "Sub-Q",
+                            "display": "Sub-Q (subcutaneous)"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1e3",
+                      "text": "e. Frequency - Code the number of times per day, week, or month the medication is administered using the following list:",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "code": "TID",
+                            "display": "TID (3 times daily)"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1f3",
+                      "text": "f. PRN",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "code": "1",
+                            "display": "1. Yes"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1g3",
+                      "text": "Select drug code system",
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "display": "NDC"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "linkId": "iM1ga3",
+                      "text": "g. NDC code",
+                      "answer": [
+                        {
+                          "valueString": "68428-210"
                         }
                       ]
                     }
@@ -2814,8 +3022,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -2874,8 +3082,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -2886,8 +3094,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -2898,8 +3106,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -2916,8 +3124,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "2",
-                    "display": "2. 1–2 of last 3 days"
+                    "code": "1",
+                    "display": "1. Ordered, not implemented"
                   }
                 }
               ]
@@ -2928,8 +3136,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Daily in last 3 days"
+                    "code": "0",
+                    "display": "0. Not ordered AND did not occur"
                   }
                 }
               ]
@@ -2940,8 +3148,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not ordered AND did not occur"
+                    "code": "2",
+                    "display": "2. 1–2 of last 3 days"
                   }
                 }
               ]
@@ -2952,8 +3160,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Ordered, not implemented"
+                    "code": "2",
+                    "display": "2. 1–2 of last 3 days"
                   }
                 }
               ]
@@ -2976,8 +3184,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not ordered AND did not occur"
+                    "code": "1",
+                    "display": "1. Ordered, not implemented"
                   }
                 }
               ]
@@ -2988,8 +3196,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not ordered AND did not occur"
+                    "code": "2",
+                    "display": "2. 1–2 of last 3 days"
                   }
                 }
               ]
@@ -3000,8 +3208,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Ordered, not implemented"
+                    "code": "3",
+                    "display": "3. Daily in last 3 days"
                   }
                 }
               ]
@@ -3036,8 +3244,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "3",
-                    "display": "3. Daily in last 3 days"
+                    "code": "0",
+                    "display": "0. Not ordered AND did not occur"
                   }
                 }
               ]
@@ -3060,8 +3268,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Ordered, not implemented"
+                    "code": "0",
+                    "display": "0. Not ordered AND did not occur"
                   }
                 }
               ]
@@ -3072,8 +3280,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. Not ordered AND did not occur"
+                    "code": "1",
+                    "display": "1. Ordered, not implemented"
                   }
                 }
               ]
@@ -3111,7 +3319,7 @@
                   "text": "Physical therapy - Total number of minutes provided in LAST 7 DAYS (or ordered if days administered = 0 and days scheduled > 0)",
                   "answer": [
                     {
-                      "valueInteger": 90
+                      "valueInteger": 40
                     }
                   ]
                 }
@@ -3126,7 +3334,7 @@
                   "text": "Occupational therapy - Number of days treatment scheduled in the LAST 7 DAYS",
                   "answer": [
                     {
-                      "valueInteger": 1
+                      "valueInteger": 3
                     }
                   ]
                 },
@@ -3135,7 +3343,7 @@
                   "text": "Occupational therapy - Number of days treatment administered for 15 minutes or more",
                   "answer": [
                     {
-                      "valueInteger": 1
+                      "valueInteger": 3
                     }
                   ]
                 },
@@ -3144,7 +3352,7 @@
                   "text": "Occupational therapy - Total number of minutes provided in LAST 7 DAYS (or ordered if days administered = 0 and days scheduled > 0)",
                   "answer": [
                     {
-                      "valueInteger": 30
+                      "valueInteger": 90
                     }
                   ]
                 }
@@ -3159,7 +3367,7 @@
                   "text": "Speech-language pathology and audiology services - Number of days treatment scheduled in the LAST 7 DAYS",
                   "answer": [
                     {
-                      "valueInteger": 0
+                      "valueInteger": 1
                     }
                   ]
                 },
@@ -3168,7 +3376,7 @@
                   "text": "Speech-Language Therapy and Audiology Services - Number of days treatment administered for 15 minutes or more",
                   "answer": [
                     {
-                      "valueInteger": 0
+                      "valueInteger": 1
                     }
                   ]
                 },
@@ -3177,7 +3385,7 @@
                   "text": "Speech-Language Therapy and Audiology Services - Total number of minutes provided in LAST 7 DAYS (or ordered if days administered = 0 and days scheduled > 0)",
                   "answer": [
                     {
-                      "valueInteger": 0
+                      "valueInteger": 30
                     }
                   ]
                 }
@@ -3192,7 +3400,7 @@
                   "text": "Respiratory therapy - Number of days treatment scheduled in the LAST 7 DAYS",
                   "answer": [
                     {
-                      "valueInteger": 1
+                      "valueInteger": 0
                     }
                   ]
                 },
@@ -3201,7 +3409,7 @@
                   "text": "Respiratory therapy - Number of days treatment administered for 15 minutes or more",
                   "answer": [
                     {
-                      "valueInteger": 1
+                      "valueInteger": 0
                     }
                   ]
                 },
@@ -3210,7 +3418,7 @@
                   "text": "Respiratory therapy - Total number of minutes provided in LAST 7 DAYS (or ordered if days administered = 0 and days scheduled > 0)",
                   "answer": [
                     {
-                      "valueInteger": 30
+                      "valueInteger": 0
                     }
                   ]
                 }
@@ -3276,7 +3484,7 @@
                   "text": "Psychological therapies - Total number of minutes provided in LAST 7 DAYS (or ordered if days administered = 0 and days scheduled > 0)",
                   "answer": [
                     {
-                      "valueInteger": 30
+                      "valueInteger": 20
                     }
                   ]
                 }
@@ -3293,7 +3501,7 @@
               "text": "a. In-patient acute care hospital with overnight stay",
               "answer": [
                 {
-                  "valueInteger": 2
+                  "valueInteger": 3
                 }
               ]
             },
@@ -3302,7 +3510,7 @@
               "text": "b. Emergency room / department visit (not counting overnight stay)",
               "answer": [
                 {
-                  "valueInteger": 1
+                  "valueInteger": 3
                 }
               ]
             }
@@ -3313,7 +3521,7 @@
           "text": "5. Physician visits",
           "answer": [
             {
-              "valueInteger": 3
+              "valueInteger": 6
             }
           ]
         },
@@ -3322,7 +3530,7 @@
           "text": "6. Physician orders",
           "answer": [
             {
-              "valueInteger": 6
+              "valueInteger": 4
             }
           ]
         },
@@ -3348,8 +3556,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Used less than daily"
+                    "code": "0",
+                    "display": "0. Not used"
                   }
                 }
               ]
@@ -3360,8 +3568,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Used less than daily"
+                    "code": "0",
+                    "display": "0. Not used"
                   }
                 }
               ]
@@ -3384,8 +3592,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -3408,8 +3616,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -3431,8 +3639,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -3449,8 +3657,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -3461,8 +3669,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -3473,8 +3681,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -3485,8 +3693,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -3509,8 +3717,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -3521,8 +3729,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -3545,8 +3753,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "0",
-                    "display": "0. No"
+                    "code": "1",
+                    "display": "1. Yes"
                   }
                 }
               ]
@@ -3557,8 +3765,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -3569,8 +3777,8 @@
               "answer": [
                 {
                   "valueCoding": {
-                    "code": "1",
-                    "display": "1. Yes"
+                    "code": "0",
+                    "display": "0. No"
                   }
                 }
               ]
@@ -3583,8 +3791,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "0",
-                "display": "0. 1-7 days"
+                "code": "3",
+                "display": "3. 31-90 days"
               }
             }
           ]
@@ -3609,7 +3817,7 @@
           "text": "2. Date assessment signed as complete",
           "answer": [
             {
-              "valueDate": "2021-09-09"
+              "valueDate": "2021-09-27"
             }
           ]
         }
